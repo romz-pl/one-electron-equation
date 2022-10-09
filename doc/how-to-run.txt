@@ -1,0 +1,38 @@
+=================================================
+
+    How to run the Program RSchr-5.6?
+
+=================================================
+
+1. Program RSchr expects two arguments. 
+
+
+2. The first argument is the path to file with parameters. 
+
+
+3. The second argument is the path to file with  definition of interaction potential. 
+
+
+4. If the first argument is 'param.inp' and the second argument is 'pot.def, 
+   then one must type in command line
+       mpiexec -np 1 rschr.x  -a ./param.inp  -b ./pot.def
+       
+       
+5. Be sure that the path to directory with executable rschr.x is on the "path". 
+
+
+6. Both input files (param.inp and pot.def) are text files. 
+
+
+7. The forma of 'param.inp' file is described in 'input-parameters.txt'.
+
+
+8. Th format of 'pot.def' file is described in 'potential-definition.txt'.
+
+
+9. Any argument for PETSc can be added in command line, for example:
+     mpiexec rschr.x -vecscatter_alltoall -a ./param.inp -b ./pot.def > rschr.out 
+
+
+----- END-OF-FILE -----
+

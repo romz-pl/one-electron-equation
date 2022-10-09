@@ -1,0 +1,56 @@
+===============================================================================
+ RRRRR  SSSSS  H   H  RRRRR    Zbigniew ROMANOWSKI                             
+ R   R  S      H   H  R   R                                                    
+ RRRRR  SSSSS  HHHHH  RRRRR    version: 5.x                                    
+ R  R       S  H   H  R  R                                                     
+ R   R  SSSSS  H   H  R   R    compilation date: Dec 18 2012 (07:40:25)                       
+===============================================================================
+
+  C A L C U L A T I O N   D A T E   Tue Dec 18 07:41:41 2012
+
+
+
+*************************************
+*                                   *
+*      I N P U T   P A R A M S      *
+*      (in alphabetic order)        *
+*                                   *
+*************************************
+Domain_Nx                        48
+
+Domain_Ny                        48
+
+Domain_Nz                        48
+
+Domain_X0                        -5.0
+
+Domain_Y0                        -5.0
+
+Domain_Z0                        -5.0
+
+Domain_h                         0.4
+
+General_BsplDeg                  3
+
+General_CubatOrder               6
+
+General_PotCache                 Tree
+
+Slepc_eps_max_it                 500
+
+Slepc_eps_mpd                    1200
+
+Slepc_eps_ncv                    1200
+
+Slepc_eps_nev                    600
+
+Slepc_eps_tol                    1E-4
+
+Slepc_eps_type                   krylovschur
+
+Slepc_st_ksp_rtol                1E-5
+
+Slepc_st_ksp_type                cg
+
+Slepc_st_pc_type                 asm
+

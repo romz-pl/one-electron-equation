@@ -1,0 +1,186 @@
+===============================================================================
+ RRRRR  SSSSS  H   H  RRRRR    Zbigniew ROMANOWSKI                             
+ R   R  S      H   H  R   R                                                    
+ RRRRR  SSSSS  HHHHH  RRRRR    version: 5.9                                    
+ R  R       S  H   H  R  R                                                     
+ R   R  SSSSS  H   H  R   R    compilation date: Jan  5 2013 (08:51:25)                       
+===============================================================================
+
+Start of calculation: Sat Jan  5 10:05:10 2013
+
+PEs = 4
+
+----INITIALIZATION----========================================================
+DOMAIN:
+    BsplDeg = 3, CubatOrder = 4, CubatNodeNo = 64
+    h = 3.333300E-01
+    Nx = 30,    Ny = 30,   Nz = 30
+    X0 = -5.000000E+00,    Xmax = 4.999900E+00
+    Y0 = -5.000000E+00,    Ymax = 4.999900E+00
+    Z0 = -5.000000E+00,    Zmax = 4.999900E+00
+
+NUMBER OF 'ATOMS' = 1
+    Harmonic-oscylator() at (x,y,z) = ( 0.00, 0.00, 0.00)
+
+
+----GRAPH-CREATION-and-PARTITIONING----=======================================
+      Setup: Max:   0.078, Sum:   0.311, Balance:   1.000
+   Matching: Max:   0.023, Sum:   0.092, Balance:   1.000
+Contraction: Max:   0.029, Sum:   0.116, Balance:   1.000
+   InitPart: Max:   0.003, Sum:   0.013, Balance:   1.000
+    Project: Max:   0.000, Sum:   0.001, Balance:   1.295
+ Initialize: Max:   0.028, Sum:   0.113, Balance:   1.003
+      K-way: Max:   0.068, Sum:   0.270, Balance:   1.000
+      Remap: Max:   0.000, Sum:   0.000, Balance:   1.028
+      Total: Max:   0.229, Sum:   0.917, Balance:   1.000
+Final   4-way Cut: 356111 	Balance: 1.020 
+
+    Number of nodes:
+         Rank0.........5.019E+03
+         Averg.........4.921E+03
+         Total.........1.968E+04
+    Number of edges:
+         Rank0.........1.409E+06
+         Averg.........1.381E+06
+         Total.........5.526E+06
+    Memory usage.[MB]:
+         Rank0.........2.158E+01
+         Averg.........2.115E+01
+         Total.........8.461E+01
+
+
+----MATRIX-ALLOCATION----=====================================================
+    Dimension of matrix H or S:
+              Rank0..............5.019E+03 (5019)
+              Averg..............4.921E+03       
+              Total..............1.968E+04 (19683)
+    Nonzero entries in H or S:
+              Rank0..............1.414E+06 (1414233)
+              Averg..............1.386E+06       
+              Total..............5.545E+06 (5545233)
+    Sparseness of H or S (fraction):
+              Rank0..............1.432E-02
+              Averg..............1.431E-02
+    Sparseness of H or S (non-zero elemnts in a row):
+              Rank0..............281.8
+              Averg..............281.7
+    Memory usage for H and S [MiB]:
+              Rank0..............4.316E+01
+              Averg..............4.231E+01
+              Total..............1.692E+02
+
+
+----ASSEMBLING----============================================================
+..........10..........20..........30..........40..........50done
+Assembling time = 3 [s]
+
+
+
+----SOLVING----===============================================================
+EPS Object: 4 MPI processes
+  type: krylovschur
+    Krylov-Schur: 50% of basis vectors kept after restart
+  problem type: generalized symmetric eigenvalue problem
+  extraction type: Rayleigh-Ritz
+  selected portion of the spectrum: smallest real parts
+  number of eigenvalues (nev): 10
+  number of column vectors (ncv): 50
+  maximum dimension of projected problem (mpd): 50
+  maximum number of iterations: 500
+  tolerance: 0.0001
+  convergence test: relative to the eigenvalue
+  estimates of matrix norms (constant): norm(A)=1, norm(B)=1
+IP Object: 4 MPI processes
+  type: bilinear
+  orthogonalization method: classical Gram-Schmidt
+  orthogonalization refinement: if needed (eta: 0.7071)
+  Matrix Object:   4 MPI processes
+    type: mpiaij
+    rows=19683, cols=19683
+    total: nonzeros=5545233, allocated nonzeros=5545233
+    total number of mallocs used during MatSetValues calls =0
+      not using I-node (on process 0) routines
+DS Object: 4 MPI processes
+  type: hep
+  solving the problem with: Implicit QR method (_steqr)
+ST Object: 4 MPI processes
+  type: shift
+  shift: 0
+  matrices A and B have same nonzero pattern
+  KSP Object:  (st_)   4 MPI processes
+    type: cg
+    maximum iterations=10000
+    using preconditioner applied to right hand side for initial guess
+    tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+    left preconditioning
+    using nonzero initial guess
+    using PRECONDITIONED norm type for convergence test
+  PC Object:  (st_)   4 MPI processes
+    type: bjacobi
+      block Jacobi: number of blocks = 4
+      Local solve is same for all blocks, in the following KSP and PC objects:
+    KSP Object:    (st_sub_)     1 MPI processes
+      type: preonly
+      maximum iterations=10000, initial guess is zero
+      tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+      left preconditioning
+      using DEFAULT norm type for convergence test
+    PC Object:    (st_sub_)     1 MPI processes
+      type not yet set
+      linear system matrix = precond matrix:
+      Matrix Object:       1 MPI processes
+        type: seqaij
+        rows=5019, cols=5019
+        total: nonzeros=1232441, allocated nonzeros=1232441
+        total number of mallocs used during MatSetValues calls =0
+          not using I-node routines
+    linear system matrix = precond matrix:
+    Matrix Object:     4 MPI processes
+      type: mpiaij
+      rows=19683, cols=19683
+      total: nonzeros=5545233, allocated nonzeros=5545233
+      total number of mallocs used during MatSetValues calls =0
+        not using I-node (on process 0) routines
+
+
+  1 EPS nconv=0 first unconverged value (error) 1.50004 (6.27034413e-04)
+  2 EPS nconv=1 first unconverged value (error) 2.49996 (4.05547580e-04)
+  3 EPS nconv=1 first unconverged value (error) 2.49994 (5.58192899e-03)
+  4 EPS nconv=3 first unconverged value (error) 3.49978 (2.00004882e-04)
+  5 EPS nconv=3 first unconverged value (error) 2.49996 (8.73973897e-03)
+  6 EPS nconv=7 first unconverged value (error) 4.46047 (1.95907304e-01)
+  7 EPS nconv=7 first unconverged value (error) 3.50005 (8.29010251e-03)
+  8 EPS nconv=8 first unconverged value (error) 4.4998 (2.38355569e-04)
+  9 EPS nconv=8 first unconverged value (error) 3.50171 (3.52621949e-02)
+ 10 EPS nconv=13 first unconverged value (error) 5.49984 (1.36532925e-03)
+
+--------------------------------------------------------------
+    Number of iterations of the method.............10
+    Number of linear iterations of the method......12937
+    Solution method................................krylovschur
+    Number of requested eigenvalues................10
+    Stopping condition: eps_tol....................1.000000E-04
+    Stopping condition: eps_max_it.................500
+--------------------------------------------------------------
+
+
+             EIGENVALUES            ERROR
+====================================================
+    0     1.5000389323E+00     0.0000000000E+00
+    1     2.4999159816E+00     0.0000000000E+00
+    2     2.4999426399E+00     0.0000000000E+00
+    3     2.5000621599E+00     0.0000000000E+00
+    4     3.4997626069E+00     0.0000000000E+00
+    5     3.4999664620E+00     0.0000000000E+00
+    6     3.5000001654E+00     0.0000000000E+00
+    7     3.5000194683E+00     0.0000000000E+00
+    8     3.5001134979E+00     0.0000000000E+00
+    9     4.4997470513E+00     0.0000000000E+00
+   10     4.4998786697E+00     0.0000000000E+00
+   11     4.5000611536E+00     0.0000000000E+00
+   12     4.5002799982E+00     0.0000000000E+00
+End of calculation: Sat Jan  5 10:06:53 2013
+
+
+
+ CALCULATION TIME = 103 [seconds] = 0.03 [hours]

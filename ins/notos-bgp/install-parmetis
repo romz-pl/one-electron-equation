@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cp ./parmetis-4.0.2/Makefile   ../../lib/parmetis-4.0.2/
+cp ./parmetis-4.0.2/CMakeLists.txt   ../../lib/parmetis-4.0.2/
+
+cd ../../lib/parmetis-4.0.2
+
+make distclean
+make config
+make -j8
+
+

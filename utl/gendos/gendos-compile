@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -f ./gendos.x
+
+g++ -O3 -Wall gendos.cpp main.cpp -o gendos.x
+
+

@@ -1,0 +1,61 @@
+#!/bin/bash
+
+
+rm -f ../../bin/rschr.x
+
+rm -f ../../log/install-lapack.log
+rm -f ../../log/install-parmetis.log
+rm -f ../../log/install-petsc.log 
+rm -f ../../log/install-rschr.log
+rm -f ../../log/install-slepc.log
+
+
+echo -n "Installing BLAS-and-LAPACK..."
+./install-lapack > ../../log/install-lapack.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+
+echo -n "Installing ParMETIS.........."
+./install-parmetis > ../../log/install-parmetis.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+echo -n "Installing PETSc............."
+./install-petsc > ../../log/install-petsc.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+echo -n "Installing SLEPc............."
+./install-slepc > ../../log/install-slepc.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+
+echo -n "Installing RSchr............."
+./install-rschr > ../../log/install-rschr.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+echo "The installation has been successfully completed!"
+

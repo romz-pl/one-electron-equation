@@ -1,0 +1,21 @@
+#!/bin/bash
+
+MAKE=/p7data/opt/gnu/make/3.82/gcc4.2.0-powerpc/bin/make
+
+export PETSC_DIR=${PWD}/../../lib/petsc-3.3-p5
+export SLEPC_DIR=${PWD}/../../lib/slepc-3.3-p3
+export PETSC_ARCH=aa-aa
+
+export OBJECT_MODE='64'
+
+
+cd ${SLEPC_DIR}
+
+${MAKE} allclean
+rm -r -f ./${PETSC_ARCH}
+
+./configure
+
+${MAKE} all
+
+

@@ -1,0 +1,9 @@
+#
+# Potential definition. Harmonic oscilator located at (0, 0, 0)
+# Author: Zbigniew Romanowski
+# Date: 24 January 2011
+#
+# FLAG   X       Y       Z  
+H        0.0     0.0     0.0
+#
+#

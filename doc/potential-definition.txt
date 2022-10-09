@@ -1,0 +1,90 @@
+=================================================
+
+    Potential definition Program RSchr-5.6
+
+=================================================
+
+0. The second argument of RSchr program is a path to file with potential definition.
+
+
+1. The program RSchr calculates the selected eigenvalues of 
+   the one-electron Schroedinger equation:
+
+   [ -0.5 * \nabla^2 + U(r) ] \Psi(r) = \lambda \Psi(r)
+
+
+2. The algorithm implemented in RSchr program is general and 
+   it works for any smooth interaction potential U.
+   
+
+3. In the current version of the program the function U is define as a sum
+   of predefined functions, where each function can be shifted
+   (i.e. centered) to the specific position.
+   
+
+4. Formally, we have:
+
+      U(r) = \sum_i Va(r - q_i) + \sum_i Vc(r - q_i) +
+             \sum_i Vg(r - q_i) + \sum_i Vh(r - q_i) 
+             
+    where q_i defines the shift vector (i.e. center vector).
+    Definitions of Va, Vc, Vg, Vh are listed below.
+
+5. Three dimensional harmonic oscillator (no parameters):
+      Vh(r) = 0.5 |r|^2
+    
+
+6. Gauss potential defined by two parameters (D, a):
+      Vg(r) = D \exp(a |r|^2).
+           
+
+7. Soft Coulomb potential defined by two parameters (D, a):
+      Vc(r) = D / \sqrt{|r|^2 + a}
+      
+
+8. Soft squared Coulomb potential defined by two parameters (D, a):
+      Va(r) = D / (|r|^2 + a) 
+    
+
+9. Information about interaction potential U is stored in file provided as a second argument 
+   for RSchr program. This file is a text file with very simple structure. If the line of this file stars 
+   with # character, it is treated as a comment. Each non-comment line must have at least one 
+   character and three real numbers. 
+   
+
+10. The first character is treated as a flag, and it defines type of interaction potential. 
+    The allowed values of flags are: A, C, G, H, what corresponds to Va, Vc, Vg, Vh, respectively. 
+    
+
+11. Three consecutive real numbers defined center of potential, i.e. the vector q_i.
+
+
+12. The rest of the line (beyond one character and three real numbers) depends on the value of flag. 
+    If the flag is A or C or G, then there must be two real numbers corresponding to parameters D and a.
+    
+
+13. Example of the input file defining the potential
+###############
+H  0.0   0.0   0.0
+C  1.0   1.0   1.0   -4.0   1.0
+G  2.0   2.0   2.0   -6.0   2.0
+A  3.0   3.0   3.0   -8.0   3.0
+###############
+
+
+14. The above example defines interaction potential as a sum of four interaction potentials:
+      - Harmonic oscillator centered at (0, 0, 0).
+      - Soft Coulomb potential centered at (1, 1, 1) with parameters D = -4.0, a = 1.0. 
+      - Gauss function centered at (2, 2, 2) with parameters D = -6.0, a = 2.0.
+      - Soft squared Coulomb potential centered at (3, 3, 3) with parameters D = -8.0, a = 3.0. 
+
+15. Examplary input files can be found in the directory 'exm'.
+
+
+16. In order to analyze the eigenvalues for a potential U, which is not of the form, the source code 
+    must be modified and the program RSchr must be recompiled. For this purpose the function 
+    Poten::Get from clas Poten must be modified. The function is in the 'poten.cpp' file.
+    
+   
+
+----- END-OF-FILE -----

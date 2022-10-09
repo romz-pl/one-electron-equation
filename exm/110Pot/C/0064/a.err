@@ -1,0 +1,13 @@
+<Dec 10 07:39:04.663765> FE_MPI (WARN) : SignalHandler() -  
+<Dec 10 07:39:04.665517> FE_MPI (WARN) : SignalHandler() - !------------------------------------------------!
+<Dec 10 07:39:04.665540> FE_MPI (WARN) : SignalHandler() - ! mpirun is now taking all the necessary actions !
+<Dec 10 07:39:04.665559> FE_MPI (WARN) : SignalHandler() - ! to terminate the job and to free the resources !
+<Dec 10 07:39:04.665581> FE_MPI (WARN) : SignalHandler() - ! occupied by this job. This may take a while... !
+<Dec 10 07:39:04.665604> FE_MPI (WARN) : SignalHandler() - !------------------------------------------------!
+<Dec 10 07:39:04.665623> FE_MPI (WARN) : SignalHandler() -  
+<gru 10 07:40:31.207181> BE_MPI (WARN) : Received a message from frontend
+<gru 10 07:40:31.207256> BE_MPI (WARN) : Execution of the current command interrupted
+<gru 10 07:40:41.260076> BE_MPI (ERROR): The error message in the job record is as follows:
+<gru 10 07:40:41.260106> BE_MPI (ERROR):   "killed with signal 9"
+<Dec 10 07:39:15.081679> FE_MPI (ERROR): Failure list:
+<Dec 10 07:39:15.081726> FE_MPI (ERROR):   - 1. Execution interrupted by signal (failure #71)

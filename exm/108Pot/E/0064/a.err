@@ -1,0 +1,1697 @@
+[60]PETSC ERROR: --------------------- Error Message ------------------------------------
+[60]PETSC ERROR: Out of memory. This could be due to allocating
+[60]PETSC ERROR: too large an object or bleeding by not properly
+[60]PETSC ERROR: destroying unneeded objects.
+[60]PETSC ERROR: Memory allocated 0 Memory used by process 13610700800
+[60]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[60]PETSC ERROR: Memory requested 927360298!
+[60]PETSC ERROR: ------------------------------------------------------------------------
+[60]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[60]PETSC ERROR: See docs/changes/index.html for recent updates.
+[60]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[60]PETSC ERROR: See docs/index.html for manual pages.
+[60]PETSC ERROR: ------------------------------------------------------------------------
+[60]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[60]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[60]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[60]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[60]PETSC ERROR: ------------------------------------------------------------------------
+[60]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[60]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[60]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[60]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[60]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[60]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[60]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[60]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[60]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[52]PETSC ERROR: --------------------- Error Message ------------------------------------
+[52]PETSC ERROR: Out of memory. This could be due to allocating
+[52]PETSC ERROR: too large an object or bleeding by not properly
+[52]PETSC ERROR: destroying unneeded objects.
+[52]PETSC ERROR: Memory allocated 0 Memory used by process 13543591936
+[52]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[52]PETSC ERROR: Memory requested 918368906!
+[52]PETSC ERROR: ------------------------------------------------------------------------
+[52]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[52]PETSC ERROR: See docs/changes/index.html for recent updates.
+[52]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[52]PETSC ERROR: See docs/index.html for manual pages.
+[52]PETSC ERROR: ------------------------------------------------------------------------
+[52]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[52]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[52]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[52]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[52]PETSC ERROR: ------------------------------------------------------------------------
+[52]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[52]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[52]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[52]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[52]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[52]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[52]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[52]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[52]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[13]PETSC ERROR: --------------------- Error Message ------------------------------------
+[13]PETSC ERROR: [11]PETSC ERROR: Out of memory. This could be due to allocating
+--------------------- Error Message ------------------------------------
+[13]PETSC ERROR: [11]PETSC ERROR: too large an object or bleeding by not properly
+Out of memory. This could be due to allocating
+[13]PETSC ERROR: [11]PETSC ERROR: destroying unneeded objects.
+too large an object or bleeding by not properly
+[13]PETSC ERROR: [11]PETSC ERROR: Memory allocated 0 Memory used by process 13577146368
+destroying unneeded objects.
+[13]PETSC ERROR: [11]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+Memory allocated 0 Memory used by process 13912690688
+[13]PETSC ERROR: [11]PETSC ERROR: Memory requested 929162466!
+Try running with -malloc_dump or -malloc_log for info.
+[13]PETSC ERROR: [11]PETSC ERROR: ------------------------------------------------------------------------
+Memory requested 944829562!
+[13]PETSC ERROR: [11]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+------------------------------------------------------------------------
+[13]PETSC ERROR: [11]PETSC ERROR: See docs/changes/index.html for recent updates.
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[13]PETSC ERROR: [11]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+See docs/changes/index.html for recent updates.
+[13]PETSC ERROR: [11]PETSC ERROR: See docs/index.html for manual pages.
+See docs/faq.html for hints about trouble shooting.
+[13]PETSC ERROR: [11]PETSC ERROR: ------------------------------------------------------------------------
+See docs/index.html for manual pages.
+[13]PETSC ERROR: [11]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+------------------------------------------------------------------------
+[13]PETSC ERROR: [11]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[13]PETSC ERROR: [11]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[13]PETSC ERROR: [11]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure run at Sat Dec  8 14:32:46 2012
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[11]PETSC ERROR: [13]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -------------------------------------------------------------------------
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[13]PETSC ERROR: [11]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+------------------------------------------------------------------------
+[13]PETSC ERROR: [11]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[13]PETSC ERROR: [11]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[13]PETSC ERROR: [11]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[13]PETSC ERROR: [11]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[13]PETSC ERROR: [11]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[13]PETSC ERROR: [11]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[13]PETSC ERROR: [11]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[13]PETSC ERROR: [11]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[11]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[39]PETSC ERROR: --------------------- Error Message ------------------------------------
+[39]PETSC ERROR: Out of memory. This could be due to allocating
+[39]PETSC ERROR: too large an object or bleeding by not properly
+[39]PETSC ERROR: destroying unneeded objects.
+[39]PETSC ERROR: Memory allocated 0 Memory used by process 13946245120
+[39]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[39]PETSC ERROR: Memory requested 949579746!
+[39]PETSC ERROR: ------------------------------------------------------------------------
+[39]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[39]PETSC ERROR: See docs/changes/index.html for recent updates.
+[39]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[39]PETSC ERROR: See docs/index.html for manual pages.
+[39]PETSC ERROR: ------------------------------------------------------------------------
+[39]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[39]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[39]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[39]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[39]PETSC ERROR: ------------------------------------------------------------------------
+[39]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[39]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[39]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[39]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[39]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[39]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[39]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[39]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[39]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[22]PETSC ERROR: --------------------- Error Message ------------------------------------
+[22]PETSC ERROR: Out of memory. This could be due to allocating
+[22]PETSC ERROR: too large an object or bleeding by not properly
+[22]PETSC ERROR: destroying unneeded objects.
+[22]PETSC ERROR: Memory allocated 0 Memory used by process 14046908416
+[22]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[22]PETSC ERROR: Memory requested 953109306!
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[22]PETSC ERROR: See docs/changes/index.html for recent updates.
+[22]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[22]PETSC ERROR: See docs/index.html for manual pages.
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[22]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[22]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[22]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[22]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[22]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[22]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[22]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[22]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[22]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[22]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[22]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[28]PETSC ERROR: --------------------- Error Message ------------------------------------
+[28]PETSC ERROR: Out of memory. This could be due to allocating
+[28]PETSC ERROR: too large an object or bleeding by not properly
+[28]PETSC ERROR: destroying unneeded objects.
+[28]PETSC ERROR: Memory allocated 0 Memory used by process 14416007168
+[28]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[28]PETSC ERROR: Memory requested 1002029290!
+[28]PETSC ERROR: ------------------------------------------------------------------------
+[28]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[28]PETSC ERROR: See docs/changes/index.html for recent updates.
+[28]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[28]PETSC ERROR: See docs/index.html for manual pages.
+[28]PETSC ERROR: ------------------------------------------------------------------------
+[28]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[28]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[28]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[28]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[28]PETSC ERROR: ------------------------------------------------------------------------
+[28]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[28]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[28]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[28]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[28]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[28]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[28]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[28]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[28]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[16]PETSC ERROR: --------------------- Error Message ------------------------------------
+[16]PETSC ERROR: Out of memory. This could be due to allocating
+[16]PETSC ERROR: too large an object or bleeding by not properly
+[16]PETSC ERROR: destroying unneeded objects.
+[16]PETSC ERROR: Memory allocated 0 Memory used by process 14046908416
+[16]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[16]PETSC ERROR: Memory requested 974651354!
+[16]PETSC ERROR: ------------------------------------------------------------------------
+[16]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[16]PETSC ERROR: See docs/changes/index.html for recent updates.
+[16]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[16]PETSC ERROR: See docs/index.html for manual pages.
+[16]PETSC ERROR: ------------------------------------------------------------------------
+[16]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[16]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[16]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[16]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[16]PETSC ERROR: ------------------------------------------------------------------------
+[16]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[16]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[16]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[16]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[16]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[16]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[16]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[16]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[16]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[35]PETSC ERROR: --------------------- Error Message ------------------------------------
+[35]PETSC ERROR: Out of memory. This could be due to allocating
+[35]PETSC ERROR: too large an object or bleeding by not properly
+[35]PETSC ERROR: destroying unneeded objects.
+[35]PETSC ERROR: Memory allocated 0 Memory used by process 14751551488
+[35]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[35]PETSC ERROR: Memory requested 1028807082!
+[35]PETSC ERROR: ------------------------------------------------------------------------
+[35]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[35]PETSC ERROR: See docs/changes/index.html for recent updates.
+[35]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[35]PETSC ERROR: See docs/index.html for manual pages.
+[35]PETSC ERROR: ------------------------------------------------------------------------
+[35]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[35]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[35]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[35]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[35]PETSC ERROR: ------------------------------------------------------------------------
+[35]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[35]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[35]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[35]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[35]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[35]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[35]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[35]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[35]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[5]PETSC ERROR: --------------------- Error Message ------------------------------------
+[5]PETSC ERROR: Out of memory. This could be due to allocating
+[5]PETSC ERROR: too large an object or bleeding by not properly
+[5]PETSC ERROR: destroying unneeded objects.
+[5]PETSC ERROR: Memory allocated 0 Memory used by process 13778472960
+[5]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[5]PETSC ERROR: Memory requested 937002458!
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[5]PETSC ERROR: See docs/changes/index.html for recent updates.
+[5]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[5]PETSC ERROR: See docs/index.html for manual pages.
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[5]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[5]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[5]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[5]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[5]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[5]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[5]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[5]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[5]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[5]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[5]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[37]PETSC ERROR: [30]PETSC ERROR: --------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+[37]PETSC ERROR: [43]PETSC ERROR: [30]PETSC ERROR: Out of memory. This could be due to allocating
+Out of memory. This could be due to allocating
+[41]PETSC ERROR: [30]PETSC ERROR: too large an object or bleeding by not properly
+--------------------- Error Message ------------------------------------
+[30]PETSC ERROR: [37]PETSC ERROR: destroying unneeded objects.
+--------------------- Error Message ------------------------------------
+[30]PETSC ERROR: [43]PETSC ERROR: too large an object or bleeding by not properly
+[41]PETSC ERROR: Memory allocated 0 Memory used by process 13845581824
+Out of memory. This could be due to allocating
+[30]PETSC ERROR: [37]PETSC ERROR: Out of memory. This could be due to allocating
+Try running with -malloc_dump or -malloc_log for info.
+[43]PETSC ERROR: [30]PETSC ERROR: destroying unneeded objects.
+Memory requested 943877306!
+[41]PETSC ERROR: [30]PETSC ERROR: too large an object or bleeding by not properly
+------------------------------------------------------------------------
+[37]PETSC ERROR: too large an object or bleeding by not properly
+[30]PETSC ERROR: [43]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Memory allocated 0 Memory used by process 13543591936
+[30]PETSC ERROR: See docs/changes/index.html for recent updates.
+[41]PETSC ERROR: [30]PETSC ERROR: destroying unneeded objects.
+[37]PETSC ERROR: destroying unneeded objects.
+See docs/faq.html for hints about trouble shooting.
+[43]PETSC ERROR: [30]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+See docs/index.html for manual pages.
+[30]PETSC ERROR: [41]PETSC ERROR: ------------------------------------------------------------------------
+Memory allocated 0 Memory used by process 14013353984
+[30]PETSC ERROR: [37]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+Memory allocated 0 Memory used by process 14181126144
+[30]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[43]PETSC ERROR: Memory requested 920723354!
+[41]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[37]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[30]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[43]PETSC ERROR: [30]PETSC ERROR: ------------------------------------------------------------------------
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[41]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+Memory requested 951933370!
+[30]PETSC ERROR: [37]PETSC ERROR: ------------------------------------------------------------------------
+Memory requested 993012122!
+[30]PETSC ERROR: [43]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[41]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+------------------------------------------------------------------------
+[30]PETSC ERROR: [37]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[30]PETSC ERROR: ------------------------------------------------------------------------
+MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[43]PETSC ERROR: See docs/changes/index.html for recent updates.
+[41]PETSC ERROR: [30]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[30]PETSC ERROR: [37]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[30]PETSC ERROR: [43]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[41]PETSC ERROR: See docs/changes/index.html for recent updates.
+MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[30]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[30]PETSC ERROR: [37]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+See docs/changes/index.html for recent updates.
+[43]PETSC ERROR: See docs/index.html for manual pages.
+[41]PETSC ERROR: [30]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+See docs/faq.html for hints about trouble shooting.
+[37]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[43]PETSC ERROR: ------------------------------------------------------------------------
+[41]PETSC ERROR: See docs/index.html for manual pages.
+[37]PETSC ERROR: See docs/index.html for manual pages.
+[43]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[41]PETSC ERROR: ------------------------------------------------------------------------
+[37]PETSC ERROR: ------------------------------------------------------------------------
+[43]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[41]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[37]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[43]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[41]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[37]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[43]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[41]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+Configure run at Sat Dec  8 14:32:46 2012
+[43]PETSC ERROR: [37]PETSC ERROR: [41]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -------------------------------------------------------------------------
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[37]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[43]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[41]PETSC ERROR: ------------------------------------------------------------------------
+[37]PETSC ERROR: ------------------------------------------------------------------------
+[43]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[41]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[37]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[43]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[41]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[37]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[43]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[41]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[37]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[43]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[41]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[37]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[43]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[41]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[37]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[43]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[41]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[37]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[43]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[41]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[37]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[43]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[41]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[43]PETSC ERROR: [41]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[26]PETSC ERROR: --------------------- Error Message ------------------------------------
+[46]PETSC ERROR: [26]PETSC ERROR: --------------------- Error Message ------------------------------------
+[20]PETSC ERROR: [46]PETSC ERROR: Out of memory. This could be due to allocating
+Out of memory. This could be due to allocating
+--------------------- Error Message ------------------------------------
+[46]PETSC ERROR: [26]PETSC ERROR: [50]PETSC ERROR: [20]PETSC ERROR: too large an object or bleeding by not properly
+too large an object or bleeding by not properly
+--------------------- Error Message ------------------------------------
+Out of memory. This could be due to allocating
+[46]PETSC ERROR: [26]PETSC ERROR: [20]PETSC ERROR: [50]PETSC ERROR: destroying unneeded objects.
+destroying unneeded objects.
+Out of memory. This could be due to allocating
+too large an object or bleeding by not properly
+[33]PETSC ERROR: [26]PETSC ERROR: [46]PETSC ERROR: [20]PETSC ERROR: Memory allocated 0 Memory used by process 13476483072
+[50]PETSC ERROR: destroying unneeded objects.
+--------------------- Error Message ------------------------------------
+[26]PETSC ERROR: Memory allocated 0 Memory used by process 13979799552
+[20]PETSC ERROR: too large an object or bleeding by not properly
+Try running with -malloc_dump or -malloc_log for info.
+[33]PETSC ERROR: Memory allocated 0 Memory used by process 14046908416
+[46]PETSC ERROR: [26]PETSC ERROR: [20]PETSC ERROR: [50]PETSC ERROR: Memory requested 935317810!
+Out of memory. This could be due to allocating
+Try running with -malloc_dump or -malloc_log for info.
+Try running with -malloc_dump or -malloc_log for info.
+[26]PETSC ERROR: destroying unneeded objects.
+[20]PETSC ERROR: [33]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: too large an object or bleeding by not properly
+------------------------------------------------------------------------
+Memory requested 949589594!
+Memory requested 958319066!
+Memory allocated 0 Memory used by process 14483116032
+[26]PETSC ERROR: [33]PETSC ERROR: [20]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[46]PETSC ERROR: ------------------------------------------------------------------------
+[50]PETSC ERROR: [26]PETSC ERROR: destroying unneeded objects.
+[20]PETSC ERROR: ------------------------------------------------------------------------
+See docs/changes/index.html for recent updates.
+Try running with -malloc_dump or -malloc_log for info.
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[33]PETSC ERROR: [46]PETSC ERROR: [26]PETSC ERROR: [50]PETSC ERROR: [20]PETSC ERROR: Memory allocated 0 Memory used by process 15154204672
+See docs/faq.html for hints about trouble shooting.
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+See docs/changes/index.html for recent updates.
+Memory requested 1013194834!
+[26]PETSC ERROR: [33]PETSC ERROR: [20]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+See docs/index.html for manual pages.
+See docs/changes/index.html for recent updates.
+See docs/faq.html for hints about trouble shooting.
+------------------------------------------------------------------------
+[26]PETSC ERROR: [20]PETSC ERROR: ------------------------------------------------------------------------
+[33]PETSC ERROR: See docs/index.html for manual pages.
+[46]PETSC ERROR: [26]PETSC ERROR: [50]PETSC ERROR: [20]PETSC ERROR: Memory requested 1064292298!
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+See docs/faq.html for hints about trouble shooting.
+------------------------------------------------------------------------
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[26]PETSC ERROR: [33]PETSC ERROR: [20]PETSC ERROR: [46]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[50]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[26]PETSC ERROR: ------------------------------------------------------------------------
+[20]PETSC ERROR: See docs/index.html for manual pages.
+Configure run at Sat Dec  8 14:32:46 2012
+See docs/changes/index.html for recent updates.
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[33]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: [26]PETSC ERROR: [20]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure run at Sat Dec  8 14:32:46 2012
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+------------------------------------------------------------------------
+See docs/faq.html for hints about trouble shooting.
+[33]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[46]PETSC ERROR: [20]PETSC ERROR: [26]PETSC ERROR: [50]PETSC ERROR: See docs/changes/index.html for recent updates.
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -See docs/index.html for manual pages.
+------------------------------------------------------------------------
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[26]PETSC ERROR: [33]PETSC ERROR: [20]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+See docs/faq.html for hints about trouble shooting.
+------------------------------------------------------------------------
+[26]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+------------------------------------------------------------------------
+[20]PETSC ERROR: [33]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[46]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[50]PETSC ERROR: [26]PETSC ERROR: See docs/index.html for manual pages.
+[20]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[33]PETSC ERROR: [46]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[50]PETSC ERROR: [26]PETSC ERROR: ------------------------------------------------------------------------
+[20]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[33]PETSC ERROR: [26]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[20]PETSC ERROR: [50]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[46]PETSC ERROR: [26]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[20]PETSC ERROR: [33]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+------------------------------------------------------------------------
+MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[50]PETSC ERROR: [26]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[20]PETSC ERROR: [46]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[33]PETSC ERROR: [26]PETSC ERROR: [20]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+Configure run at Sat Dec  8 14:32:46 2012
+[46]PETSC ERROR: [50]PETSC ERROR: [33]PETSC ERROR: [26]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[20]PETSC ERROR: ------------------------------------------------------------------------
+SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[46]PETSC ERROR: [20]PETSC ERROR: [50]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[33]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: ------------------------------------------------------------------------
+MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[33]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[33]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[33]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[33]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[33]PETSC ERROR: [46]PETSC ERROR: [50]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[33]PETSC ERROR: [50]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[33]PETSC ERROR: [50]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[33]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[33]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[17]PETSC ERROR: --------------------- Error Message ------------------------------------
+[17]PETSC ERROR: Out of memory. This could be due to allocating
+[17]PETSC ERROR: too large an object or bleeding by not properly
+[17]PETSC ERROR: destroying unneeded objects.
+[17]PETSC ERROR: Memory allocated 0 Memory used by process 14181126144
+[17]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[17]PETSC ERROR: Memory requested 980652026!
+[17]PETSC ERROR: ------------------------------------------------------------------------
+[17]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[17]PETSC ERROR: See docs/changes/index.html for recent updates.
+[17]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[17]PETSC ERROR: See docs/index.html for manual pages.
+[17]PETSC ERROR: ------------------------------------------------------------------------
+[17]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[17]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[17]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[17]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[17]PETSC ERROR: ------------------------------------------------------------------------
+[17]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[17]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[17]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[17]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[17]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[17]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[17]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[17]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[17]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[58]PETSC ERROR: --------------------- Error Message ------------------------------------
+[58]PETSC ERROR: Out of memory. This could be due to allocating
+[58]PETSC ERROR: too large an object or bleeding by not properly
+[58]PETSC ERROR: destroying unneeded objects.
+[49]PETSC ERROR: [58]PETSC ERROR: --------------------- Error Message ------------------------------------
+Memory allocated 0 Memory used by process 13778472960
+[49]PETSC ERROR: [58]PETSC ERROR: Out of memory. This could be due to allocating
+Try running with -malloc_dump or -malloc_log for info.
+[49]PETSC ERROR: [58]PETSC ERROR: too large an object or bleeding by not properly
+Memory requested 935192770!
+[49]PETSC ERROR: [58]PETSC ERROR: destroying unneeded objects.
+------------------------------------------------------------------------
+[49]PETSC ERROR: [58]PETSC ERROR: Memory allocated 0 Memory used by process 14785105920
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[49]PETSC ERROR: [58]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+See docs/changes/index.html for recent updates.
+[49]PETSC ERROR: [58]PETSC ERROR: Memory requested 1032719546!
+See docs/faq.html for hints about trouble shooting.
+[49]PETSC ERROR: [58]PETSC ERROR: ------------------------------------------------------------------------
+See docs/index.html for manual pages.
+[49]PETSC ERROR: [58]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+------------------------------------------------------------------------
+[49]PETSC ERROR: [58]PETSC ERROR: See docs/changes/index.html for recent updates.
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[49]PETSC ERROR: [58]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[49]PETSC ERROR: [58]PETSC ERROR: See docs/index.html for manual pages.
+Configure run at Sat Dec  8 14:32:46 2012
+[49]PETSC ERROR: [58]PETSC ERROR: ------------------------------------------------------------------------
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[49]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[58]PETSC ERROR: [49]PETSC ERROR: ------------------------------------------------------------------------
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[58]PETSC ERROR: [49]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+Configure run at Sat Dec  8 14:32:46 2012
+[58]PETSC ERROR: [49]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[58]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[49]PETSC ERROR: [58]PETSC ERROR: ------------------------------------------------------------------------
+MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[49]PETSC ERROR: [58]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[49]PETSC ERROR: [58]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[49]PETSC ERROR: [58]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[49]PETSC ERROR: [58]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[49]PETSC ERROR: [58]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[49]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[49]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[49]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[49]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[48]PETSC ERROR: --------------------- Error Message ------------------------------------
+[48]PETSC ERROR: Out of memory. This could be due to allocating
+[48]PETSC ERROR: too large an object or bleeding by not properly
+[48]PETSC ERROR: destroying unneeded objects.
+[48]PETSC ERROR: Memory allocated 0 Memory used by process 13744918528
+[48]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[48]PETSC ERROR: Memory requested 934117690!
+[48]PETSC ERROR: ------------------------------------------------------------------------
+[48]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[48]PETSC ERROR: See docs/changes/index.html for recent updates.
+[48]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[48]PETSC ERROR: See docs/index.html for manual pages.
+[48]PETSC ERROR: ------------------------------------------------------------------------
+[48]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[48]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[48]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[48]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[48]PETSC ERROR: ------------------------------------------------------------------------
+[48]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[48]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[48]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[48]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[48]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[48]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[48]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[48]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[48]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[36]PETSC ERROR: --------------------- Error Message ------------------------------------
+[36]PETSC ERROR: Out of memory. This could be due to allocating
+[36]PETSC ERROR: too large an object or bleeding by not properly
+[36]PETSC ERROR: destroying unneeded objects.
+[36]PETSC ERROR: Memory allocated 0 Memory used by process 13577146368
+[36]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[36]PETSC ERROR: Memory requested 912150026!
+[36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[36]PETSC ERROR: See docs/changes/index.html for recent updates.
+[36]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[36]PETSC ERROR: See docs/index.html for manual pages.
+[36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[36]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[36]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[36]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[36]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[36]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[36]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[36]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[36]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[36]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[36]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[36]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[45]PETSC ERROR: --------------------- Error Message ------------------------------------
+[45]PETSC ERROR: Out of memory. This could be due to allocating
+[45]PETSC ERROR: too large an object or bleeding by not properly
+[45]PETSC ERROR: destroying unneeded objects.
+[45]PETSC ERROR: Memory allocated 0 Memory used by process 13979799552
+[45]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[45]PETSC ERROR: Memory requested 952715658!
+[45]PETSC ERROR: ------------------------------------------------------------------------
+[45]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[45]PETSC ERROR: See docs/changes/index.html for recent updates.
+[45]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[45]PETSC ERROR: See docs/index.html for manual pages.
+[45]PETSC ERROR: ------------------------------------------------------------------------
+[45]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[45]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[45]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[45]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[45]PETSC ERROR: ------------------------------------------------------------------------
+[45]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[45]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[45]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[45]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[45]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[45]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[45]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[45]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[45]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[38]PETSC ERROR: --------------------- Error Message ------------------------------------
+[38]PETSC ERROR: Out of memory. This could be due to allocating
+[38]PETSC ERROR: too large an object or bleeding by not properly
+[38]PETSC ERROR: destroying unneeded objects.
+[38]PETSC ERROR: Memory allocated 0 Memory used by process 13577146368
+[38]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[38]PETSC ERROR: Memory requested 931081554!
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[38]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[38]PETSC ERROR: See docs/changes/index.html for recent updates.
+[38]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[38]PETSC ERROR: See docs/index.html for manual pages.
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[38]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[38]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[38]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[38]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[38]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[38]PETSC ERROR: MatSeqAIJSetPreallocation_SeqAIJ() line 3445 in src/mat/impls/aij/seq/aij.c
+[38]PETSC ERROR: MatSeqAIJSetPreallocation() line 3390 in src/mat/impls/aij/seq/aij.c
+[38]PETSC ERROR: MatGetSubMatrices_MPIAIJ_Local() line 1336 in src/mat/impls/aij/mpi/mpiov.c
+[38]PETSC ERROR: MatGetSubMatrices_MPIAIJ() line 798 in src/mat/impls/aij/mpi/mpiov.c
+[38]PETSC ERROR: MatGetSubMatrices() line 6395 in src/mat/interface/matrix.c
+[38]PETSC ERROR: PCSetUp_ASM() line 382 in src/ksp/pc/impls/asm/asm.c
+[38]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[38]PETSC ERROR: SlepcAbs() line 190 in "unknowndirectory/"eigsol.cpp
+[11]PETSC ERROR: --------------------- Error Message ------------------------------------
+[11]PETSC ERROR: Object is in wrong state!
+[11]PETSC ERROR: Matrix must be set first!
+[11]PETSC ERROR: ------------------------------------------------------------------------
+[11]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[11]PETSC ERROR: See docs/changes/index.html for recent updates.
+[11]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[11]PETSC ERROR: See docs/index.html for manual pages.
+[13]PETSC ERROR: [11]PETSC ERROR: --------------------- Error Message ------------------------------------
+------------------------------------------------------------------------
+[13]PETSC ERROR: [11]PETSC ERROR: Object is in wrong state!
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[13]PETSC ERROR: [11]PETSC ERROR: Matrix must be set first!
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[13]PETSC ERROR: [11]PETSC ERROR: ------------------------------------------------------------------------
+Configure run at Sat Dec  8 14:32:46 2012
+[13]PETSC ERROR: [11]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[30]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[13]PETSC ERROR: --------------------- Error Message ------------------------------------
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+See docs/changes/index.html for recent updates.
+[30]PETSC ERROR: [11]PETSC ERROR: [13]PETSC ERROR: Object is in wrong state!
+------------------------------------------------------------------------
+See docs/faq.html for hints about trouble shooting.
+[30]PETSC ERROR: [13]PETSC ERROR: [11]PETSC ERROR: Matrix must be set first!
+See docs/index.html for manual pages.
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[30]PETSC ERROR: [13]PETSC ERROR: ------------------------------------------------------------------------
+[11]PETSC ERROR: ------------------------------------------------------------------------
+[30]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[13]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[11]PETSC ERROR: [30]PETSC ERROR: [13]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+See docs/changes/index.html for recent updates.
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[30]PETSC ERROR: [11]PETSC ERROR: [13]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+Configure run at Sat Dec  8 14:32:46 2012
+[30]PETSC ERROR: [11]PETSC ERROR: [13]PETSC ERROR: See docs/index.html for manual pages.
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[30]PETSC ERROR: [11]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+------------------------------------------------------------------------
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[13]PETSC ERROR: [30]PETSC ERROR: ------------------------------------------------------------------------
+[11]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[13]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[30]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[11]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[13]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[30]PETSC ERROR: [11]PETSC ERROR: [13]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+STApply() line 67 in src/st/interface/stsolve.c
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[30]PETSC ERROR: [13]PETSC ERROR: [11]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[13]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+------------------------------------------------------------------------
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[13]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+EPSSolve() line 130 in src/eps/interface/solve.c
+[13]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[13]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[30]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[13]PETSC ERROR: [30]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[13]PETSC ERROR: [30]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[13]PETSC ERROR: [30]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[13]PETSC ERROR: [30]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[13]PETSC ERROR: [30]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[30]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[30]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[30]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[30]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[30]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[39]PETSC ERROR: --------------------- Error Message ------------------------------------
+[39]PETSC ERROR: Object is in wrong state!
+[39]PETSC ERROR: Matrix must be set first!
+[39]PETSC ERROR: ------------------------------------------------------------------------
+[39]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[39]PETSC ERROR: See docs/changes/index.html for recent updates.
+[39]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[39]PETSC ERROR: See docs/index.html for manual pages.
+[39]PETSC ERROR: ------------------------------------------------------------------------
+[39]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[39]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[39]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[39]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[39]PETSC ERROR: ------------------------------------------------------------------------
+[39]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[39]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[39]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[39]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[39]PETSC ERROR: [46]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+--------------------- Error Message ------------------------------------
+[39]PETSC ERROR: [46]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+Object is in wrong state!
+[39]PETSC ERROR: [46]PETSC ERROR: [48]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+Matrix must be set first!
+--------------------- Error Message ------------------------------------
+[39]PETSC ERROR: [46]PETSC ERROR: [48]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+------------------------------------------------------------------------
+Object is in wrong state!
+[39]PETSC ERROR: [46]PETSC ERROR: [48]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Matrix must be set first!
+[39]PETSC ERROR: [5]PETSC ERROR: [46]PETSC ERROR: --------------------- Error Message ------------------------------------
+[48]PETSC ERROR: [5]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+See docs/changes/index.html for recent updates.
+------------------------------------------------------------------------
+[39]PETSC ERROR: [46]PETSC ERROR: Object is in wrong state!
+[5]PETSC ERROR: Matrix must be set first!
+[5]PETSC ERROR: [48]PETSC ERROR: ------------------------------------------------------------------------
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[5]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[5]PETSC ERROR: [39]PETSC ERROR: [46]PETSC ERROR: [48]PETSC ERROR: See docs/changes/index.html for recent updates.
+[5]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[5]PETSC ERROR: [22]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+--------------------- Error Message ------------------------------------
+See docs/changes/index.html for recent updates.
+[5]PETSC ERROR: [39]PETSC ERROR: [22]PETSC ERROR: ------------------------------------------------------------------------
+Object is in wrong state!
+[5]PETSC ERROR: [22]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[46]PETSC ERROR: Matrix must be set first!
+[48]PETSC ERROR: [5]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[22]PETSC ERROR: [45]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[5]PETSC ERROR: [37]PETSC ERROR: [22]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+Configure run at Sat Dec  8 14:32:46 2012
+[36]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[5]PETSC ERROR: [22]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 ---------------------- Error Message ------------------------------------
+See docs/changes/index.html for recent updates.
+[46]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+--------------------- Error Message ------------------------------------
+[20]PETSC ERROR: [48]PETSC ERROR: [22]PETSC ERROR: --------------------- Error Message ------------------------------------
+[5]PETSC ERROR: --------------------- Error Message ------------------------------------
+See docs/faq.html for hints about trouble shooting.
+------------------------------------------------------------------------
+[20]PETSC ERROR: [45]PETSC ERROR: [22]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[5]PETSC ERROR: [38]PETSC ERROR: See docs/index.html for manual pages.
+[37]PETSC ERROR: Object is in wrong state!
+See docs/index.html for manual pages.
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[36]PETSC ERROR: [22]PETSC ERROR: [20]PETSC ERROR: Object is in wrong state!
+[46]PETSC ERROR: --------------------- Error Message ------------------------------------
+Object is in wrong state!
+[48]PETSC ERROR: Object is in wrong state!
+[45]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[38]PETSC ERROR: [37]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: Matrix must be set first!
+[46]PETSC ERROR: Object is in wrong state!
+Matrix must be set first!
+[48]PETSC ERROR: Matrix must be set first!
+[45]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[38]PETSC ERROR: [37]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[36]PETSC ERROR: ------------------------------------------------------------------------
+[46]PETSC ERROR: Matrix must be set first!
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[48]PETSC ERROR: [5]PETSC ERROR: [45]PETSC ERROR: Matrix must be set first!
+------------------------------------------------------------------------
+[22]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[38]PETSC ERROR: [20]PETSC ERROR: [37]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[5]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[22]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+------------------------------------------------------------------------
+[36]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+------------------------------------------------------------------------
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[20]PETSC ERROR: [48]PETSC ERROR: [22]PETSC ERROR: [45]PETSC ERROR: [5]PETSC ERROR: [46]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Configure run at Sat Dec  8 14:32:46 2012
+[38]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[37]PETSC ERROR: [22]PETSC ERROR: See docs/changes/index.html for recent updates.
+[20]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[5]PETSC ERROR: ------------------------------------------------------------------------
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[36]PETSC ERROR: See docs/changes/index.html for recent updates.
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[45]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+See docs/changes/index.html for recent updates.
+[20]PETSC ERROR: [48]PETSC ERROR: [22]PETSC ERROR: [46]PETSC ERROR: [5]PETSC ERROR: See docs/changes/index.html for recent updates.
+See docs/faq.html for hints about trouble shooting.
+[38]PETSC ERROR: ------------------------------------------------------------------------
+See docs/faq.html for hints about trouble shooting.
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[37]PETSC ERROR: [20]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[22]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[5]PETSC ERROR: [36]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[45]PETSC ERROR: See docs/index.html for manual pages.
+See docs/changes/index.html for recent updates.
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+See docs/faq.html for hints about trouble shooting.
+[22]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[20]PETSC ERROR: [46]PETSC ERROR: [5]PETSC ERROR: See docs/index.html for manual pages.
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+See docs/faq.html for hints about trouble shooting.
+STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[37]PETSC ERROR: [22]PETSC ERROR: [48]PETSC ERROR: [5]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[20]PETSC ERROR: [45]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[36]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+See docs/faq.html for hints about trouble shooting.
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+See docs/index.html for manual pages.
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[20]PETSC ERROR: [46]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+See docs/index.html for manual pages.
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[38]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[37]PETSC ERROR: [22]PETSC ERROR: [48]PETSC ERROR: [5]PETSC ERROR: [45]PETSC ERROR: [20]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[36]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+See docs/index.html for manual pages.
+Configure run at Sat Dec  8 14:32:46 2012
+------------------------------------------------------------------------
+[22]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[5]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[46]PETSC ERROR: [20]PETSC ERROR: ------------------------------------------------------------------------
+EPSSolve() line 130 in src/eps/interface/solve.c
+[38]PETSC ERROR: [22]PETSC ERROR: [37]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[45]PETSC ERROR: [5]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[48]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[36]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+------------------------------------------------------------------------
+[22]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[20]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[46]PETSC ERROR: ------------------------------------------------------------------------
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[22]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[26]PETSC ERROR: [38]PETSC ERROR: [20]PETSC ERROR: [37]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[45]PETSC ERROR: --------------------- Error Message ------------------------------------
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[48]PETSC ERROR: [22]PETSC ERROR: [36]PETSC ERROR: [26]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[20]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+Configure run at Sat Dec  8 14:32:46 2012
+Object is in wrong state!
+[46]PETSC ERROR: [22]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[26]PETSC ERROR: [38]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[37]PETSC ERROR: [20]PETSC ERROR: [45]PETSC ERROR: Matrix must be set first!
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[22]PETSC ERROR: [48]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[36]PETSC ERROR: [26]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+EPSSolve() line 130 in src/eps/interface/solve.c
+Configure run at Sat Dec  8 14:32:46 2012
+------------------------------------------------------------------------
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[20]PETSC ERROR: [46]PETSC ERROR: [22]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[26]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[38]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[37]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[20]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[26]PETSC ERROR: [48]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[36]PETSC ERROR: See docs/changes/index.html for recent updates.
+Configure run at Sat Dec  8 14:32:46 2012
+[20]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[26]PETSC ERROR: [45]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[46]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[20]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[26]PETSC ERROR: [38]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+See docs/index.html for manual pages.
+------------------------------------------------------------------------
+[20]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[26]PETSC ERROR: [48]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+------------------------------------------------------------------------
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[20]PETSC ERROR: [37]PETSC ERROR: [26]PETSC ERROR: [45]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[46]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[20]PETSC ERROR: [36]PETSC ERROR: [26]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+------------------------------------------------------------------------
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[20]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[26]PETSC ERROR: [48]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+------------------------------------------------------------------------
+Configure run at Sat Dec  8 14:32:46 2012
+[38]PETSC ERROR: [20]PETSC ERROR: [37]PETSC ERROR: [26]PETSC ERROR: [45]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[46]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[36]PETSC ERROR: [20]PETSC ERROR: ------------------------------------------------------------------------
+[26]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+------------------------------------------------------------------------
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[26]PETSC ERROR: [48]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[26]PETSC ERROR: [38]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[37]PETSC ERROR: [26]PETSC ERROR: [45]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[46]PETSC ERROR: [26]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[36]PETSC ERROR: [26]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[26]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[26]PETSC ERROR: [48]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[26]PETSC ERROR: [38]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[37]PETSC ERROR: [26]PETSC ERROR: [45]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[43]PETSC ERROR: [26]PETSC ERROR: [46]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+STApply() line 67 in src/st/interface/stsolve.c
+[26]PETSC ERROR: [36]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[17]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[26]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+--------------------- Error Message ------------------------------------
+EPSSolve() line 130 in src/eps/interface/solve.c
+EPSSolve() line 130 in src/eps/interface/solve.c
+--------------------- Error Message ------------------------------------
+[17]PETSC ERROR: [48]PETSC ERROR: [26]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+Object is in wrong state!
+[38]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[37]PETSC ERROR: [17]PETSC ERROR: [45]PETSC ERROR: Matrix must be set first!
+[46]PETSC ERROR: [17]PETSC ERROR: [43]PETSC ERROR: ------------------------------------------------------------------------
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[17]PETSC ERROR: [36]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[17]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+See docs/changes/index.html for recent updates.
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[17]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+See docs/faq.html for hints about trouble shooting.
+Object is in wrong state!
+[17]PETSC ERROR: [48]PETSC ERROR: See docs/index.html for manual pages.
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[17]PETSC ERROR: [38]PETSC ERROR: [16]PETSC ERROR: [45]PETSC ERROR: ------------------------------------------------------------------------
+[37]PETSC ERROR: --------------------- Error Message ------------------------------------
+[43]PETSC ERROR: [17]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[16]PETSC ERROR: [36]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+Object is in wrong state!
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[17]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[16]PETSC ERROR: Matrix must be set first!
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[48]PETSC ERROR: Matrix must be set first!
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[17]PETSC ERROR: [38]PETSC ERROR: [16]PETSC ERROR: [45]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[37]PETSC ERROR: ------------------------------------------------------------------------
+[43]PETSC ERROR: [17]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[16]PETSC ERROR: [36]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[16]PETSC ERROR: ------------------------------------------------------------------------
+[17]PETSC ERROR: [48]PETSC ERROR: See docs/changes/index.html for recent updates.
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+------------------------------------------------------------------------
+[45]PETSC ERROR: [16]PETSC ERROR: [38]PETSC ERROR: [17]PETSC ERROR: [37]PETSC ERROR: [28]PETSC ERROR: [43]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+STApply_Shift() line 37 in src/st/impls/shift/shift.c
+--------------------- Error Message ------------------------------------
+[36]PETSC ERROR: [16]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[28]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[17]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+See docs/index.html for manual pages.
+[45]PETSC ERROR: Object is in wrong state!
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[38]PETSC ERROR: [16]PETSC ERROR: [43]PETSC ERROR: [28]PETSC ERROR: [37]PETSC ERROR: [17]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+------------------------------------------------------------------------
+[36]PETSC ERROR: Matrix must be set first!
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+See docs/changes/index.html for recent updates.
+[16]PETSC ERROR: [45]PETSC ERROR: [28]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[17]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[43]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[16]PETSC ERROR: [37]PETSC ERROR: [28]PETSC ERROR: [36]PETSC ERROR: [17]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+See docs/faq.html for hints about trouble shooting.
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[45]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+STApply() line 67 in src/st/interface/stsolve.c
+[16]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[28]PETSC ERROR: [38]PETSC ERROR: [17]PETSC ERROR: [43]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+See docs/changes/index.html for recent updates.
+[37]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[36]PETSC ERROR: [16]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[28]PETSC ERROR: See docs/index.html for manual pages.
+[17]PETSC ERROR: [45]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+See docs/faq.html for hints about trouble shooting.
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[38]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[43]PETSC ERROR: [28]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[17]PETSC ERROR: [37]PETSC ERROR: [16]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+See docs/index.html for manual pages.
+[36]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+------------------------------------------------------------------------
+[28]PETSC ERROR: [45]PETSC ERROR: ------------------------------------------------------------------------
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[17]PETSC ERROR: [38]PETSC ERROR: ------------------------------------------------------------------------
+[43]PETSC ERROR: [16]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+STApply() line 67 in src/st/interface/stsolve.c
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[28]PETSC ERROR: [37]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[17]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[36]PETSC ERROR: [16]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[38]PETSC ERROR: [28]PETSC ERROR: [43]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+EPSSolve() line 130 in src/eps/interface/solve.c
+[17]PETSC ERROR: [37]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[16]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[36]PETSC ERROR: [28]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[17]PETSC ERROR: [43]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[38]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+EPSSolve() line 130 in src/eps/interface/solve.c
+Configure run at Sat Dec  8 14:32:46 2012
+[16]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[28]PETSC ERROR: [43]PETSC ERROR: [17]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[43]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+------------------------------------------------------------------------
+[16]PETSC ERROR: [43]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[43]PETSC ERROR: [28]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[43]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[43]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[16]PETSC ERROR: [43]PETSC ERROR: ------------------------------------------------------------------------
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[43]PETSC ERROR: [28]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[16]PETSC ERROR: [43]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[28]PETSC ERROR: [16]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+STApply_Shift() line 37 in src/st/impls/shift/shift.c
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[28]PETSC ERROR: [43]PETSC ERROR: [16]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[43]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+STApply() line 67 in src/st/interface/stsolve.c
+[28]PETSC ERROR: [43]PETSC ERROR: [16]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[43]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[28]PETSC ERROR: [43]PETSC ERROR: [16]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[43]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[28]PETSC ERROR: [52]PETSC ERROR: [16]PETSC ERROR: --------------------- Error Message ------------------------------------
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[52]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+Object is in wrong state!
+[28]PETSC ERROR: [52]PETSC ERROR: [16]PETSC ERROR: Matrix must be set first!
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[52]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[28]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[28]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[28]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[33]PETSC ERROR: [28]PETSC ERROR: ------------------------------------------------------------------------
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+--------------------- Error Message ------------------------------------
+[28]PETSC ERROR: [52]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[33]PETSC ERROR: [28]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+Object is in wrong state!
+[52]PETSC ERROR: [33]PETSC ERROR: See docs/changes/index.html for recent updates.
+Matrix must be set first!
+[52]PETSC ERROR: [33]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+------------------------------------------------------------------------
+[52]PETSC ERROR: [33]PETSC ERROR: See docs/index.html for manual pages.
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[52]PETSC ERROR: [33]PETSC ERROR: ------------------------------------------------------------------------
+[58]PETSC ERROR: See docs/changes/index.html for recent updates.
+[52]PETSC ERROR: --------------------- Error Message ------------------------------------
+[33]PETSC ERROR: [58]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+See docs/faq.html for hints about trouble shooting.
+Object is in wrong state!
+[52]PETSC ERROR: [58]PETSC ERROR: [33]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Matrix must be set first!
+See docs/index.html for manual pages.
+[52]PETSC ERROR: [58]PETSC ERROR: [33]PETSC ERROR: ------------------------------------------------------------------------
+Configure run at Sat Dec  8 14:32:46 2012
+------------------------------------------------------------------------
+[58]PETSC ERROR: [52]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[33]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[58]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+See docs/changes/index.html for recent updates.
+[33]PETSC ERROR: [52]PETSC ERROR: [58]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+------------------------------------------------------------------------
+See docs/faq.html for hints about trouble shooting.
+[33]PETSC ERROR: [52]PETSC ERROR: [58]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+See docs/index.html for manual pages.
+[60]PETSC ERROR: [33]PETSC ERROR: [58]PETSC ERROR: [52]PETSC ERROR: --------------------- Error Message ------------------------------------
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -------------------------------------------------------------------------
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[60]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[58]PETSC ERROR: [52]PETSC ERROR: Object is in wrong state!
+[33]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[60]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+------------------------------------------------------------------------
+[58]PETSC ERROR: Matrix must be set first!
+[33]PETSC ERROR: [52]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[60]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[58]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+------------------------------------------------------------------------
+[33]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[60]PETSC ERROR: [52]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[58]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[33]PETSC ERROR: [60]PETSC ERROR: [52]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+See docs/changes/index.html for recent updates.
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[58]PETSC ERROR: [60]PETSC ERROR: [33]PETSC ERROR: [52]PETSC ERROR: ------------------------------------------------------------------------
+See docs/faq.html for hints about trouble shooting.
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[58]PETSC ERROR: [60]PETSC ERROR: [33]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[52]PETSC ERROR: See docs/index.html for manual pages.
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[58]PETSC ERROR: [60]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[33]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+------------------------------------------------------------------------
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[52]PETSC ERROR: [58]PETSC ERROR: [60]PETSC ERROR: [33]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+STApply() line 67 in src/st/interface/stsolve.c
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[58]PETSC ERROR: [60]PETSC ERROR: [52]PETSC ERROR: [33]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[58]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[60]PETSC ERROR: [52]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+Configure run at Sat Dec  8 14:32:46 2012
+[33]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[58]PETSC ERROR: [60]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[52]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[33]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[58]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[52]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[60]PETSC ERROR: [33]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[58]PETSC ERROR: ------------------------------------------------------------------------
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[60]PETSC ERROR: [33]PETSC ERROR: [58]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+STApply() line 67 in src/st/interface/stsolve.c
+EPSSolve() line 130 in src/eps/interface/solve.c
+[60]PETSC ERROR: [58]PETSC ERROR: [33]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[58]PETSC ERROR: [60]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[58]PETSC ERROR: [60]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[58]PETSC ERROR: [60]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[60]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[60]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[60]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[60]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[60]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[60]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[60]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[60]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[41]PETSC ERROR: --------------------- Error Message ------------------------------------
+[41]PETSC ERROR: Object is in wrong state!
+[41]PETSC ERROR: Matrix must be set first!
+[41]PETSC ERROR: ------------------------------------------------------------------------
+[41]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[41]PETSC ERROR: See docs/changes/index.html for recent updates.
+[41]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[41]PETSC ERROR: See docs/index.html for manual pages.
+[41]PETSC ERROR: [49]PETSC ERROR: ------------------------------------------------------------------------
+--------------------- Error Message ------------------------------------
+[41]PETSC ERROR: [50]PETSC ERROR: [49]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+--------------------- Error Message ------------------------------------
+[41]PETSC ERROR: Object is in wrong state!
+[50]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[49]PETSC ERROR: [41]PETSC ERROR: Object is in wrong state!
+Matrix must be set first!
+Configure run at Sat Dec  8 14:32:46 2012
+[50]PETSC ERROR: [49]PETSC ERROR: [41]PETSC ERROR: Matrix must be set first!
+------------------------------------------------------------------------
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[50]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[49]PETSC ERROR: ------------------------------------------------------------------------
+[41]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[50]PETSC ERROR: ------------------------------------------------------------------------
+[49]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[41]PETSC ERROR: See docs/changes/index.html for recent updates.
+[50]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[49]PETSC ERROR: See docs/changes/index.html for recent updates.
+[41]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[50]PETSC ERROR: [49]PETSC ERROR: [41]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+See docs/index.html for manual pages.
+[50]PETSC ERROR: [41]PETSC ERROR: [49]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+See docs/index.html for manual pages.
+------------------------------------------------------------------------
+[41]PETSC ERROR: [50]PETSC ERROR: [49]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+------------------------------------------------------------------------
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[41]PETSC ERROR: [50]PETSC ERROR: [49]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[41]PETSC ERROR: [50]PETSC ERROR: [49]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[41]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[50]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[49]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[41]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[50]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[41]PETSC ERROR: [49]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[50]PETSC ERROR: ------------------------------------------------------------------------
+[41]PETSC ERROR: ------------------------------------------------------------------------
+[49]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[50]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[41]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[49]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[35]PETSC ERROR: [50]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[41]PETSC ERROR: --------------------- Error Message ------------------------------------
+KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[49]PETSC ERROR: [35]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[50]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+Object is in wrong state!
+PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[49]PETSC ERROR: [35]PETSC ERROR: [50]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+Matrix must be set first!
+PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[35]PETSC ERROR: [49]PETSC ERROR: [50]PETSC ERROR: ------------------------------------------------------------------------
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[35]PETSC ERROR: [50]PETSC ERROR: [49]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[35]PETSC ERROR: [50]PETSC ERROR: See docs/changes/index.html for recent updates.
+[49]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[35]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+See docs/faq.html for hints about trouble shooting.
+[50]PETSC ERROR: [49]PETSC ERROR: [35]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+See docs/index.html for manual pages.
+STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[50]PETSC ERROR: [35]PETSC ERROR: [49]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+------------------------------------------------------------------------
+STApply() line 67 in src/st/interface/stsolve.c
+[50]PETSC ERROR: [35]PETSC ERROR: [49]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[35]PETSC ERROR: [50]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[49]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[35]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+Configure run at Sat Dec  8 14:32:46 2012
+[50]PETSC ERROR: [49]PETSC ERROR: [35]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+EPSSolve() line 130 in src/eps/interface/solve.c
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[50]PETSC ERROR: [49]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[35]PETSC ERROR: ------------------------------------------------------------------------
+[35]PETSC ERROR: PCSetUp() line 812 in src/ksp/pc/interface/precon.c
+[35]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[35]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[35]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[35]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[35]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[35]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[35]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[35]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[35]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[35]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[35]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[35]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[14]PETSC ERROR: --------------------- Error Message ------------------------------------
+[14]PETSC ERROR: Out of memory. This could be due to allocating
+[14]PETSC ERROR: too large an object or bleeding by not properly
+[14]PETSC ERROR: destroying unneeded objects.
+[14]PETSC ERROR: Memory allocated 0 Memory used by process 16508043264
+[14]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[14]PETSC ERROR: Memory requested 290522376!
+[14]PETSC ERROR: ------------------------------------------------------------------------
+[14]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[14]PETSC ERROR: See docs/changes/index.html for recent updates.
+[14]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[14]PETSC ERROR: See docs/index.html for manual pages.
+[14]PETSC ERROR: ------------------------------------------------------------------------
+[14]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[14]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[14]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[14]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[14]PETSC ERROR: ------------------------------------------------------------------------
+[14]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[14]PETSC ERROR: MatICCFactorSymbolic_SeqAIJ() line 2570 in src/mat/impls/aij/seq/aijfact.c
+[14]PETSC ERROR: MatICCFactorSymbolic() line 6196 in src/mat/interface/matrix.c
+[14]PETSC ERROR: PCSetup_ICC() line 20 in src/ksp/pc/impls/factor/icc/icc.c
+[14]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[14]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[14]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[14]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[14]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[14]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[14]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[14]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[9]PETSC ERROR: [14]PETSC ERROR: --------------------- Error Message ------------------------------------
+STApply() line 67 in src/st/interface/stsolve.c
+[9]PETSC ERROR: [14]PETSC ERROR: Out of memory. This could be due to allocating
+EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[9]PETSC ERROR: [14]PETSC ERROR: too large an object or bleeding by not properly
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[9]PETSC ERROR: [14]PETSC ERROR: destroying unneeded objects.
+EPSSolve() line 130 in src/eps/interface/solve.c
+[9]PETSC ERROR: [14]PETSC ERROR: Memory allocated 0 Memory used by process 16294281216
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[9]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[9]PETSC ERROR: Memory requested 285624912!
+[9]PETSC ERROR: ------------------------------------------------------------------------
+[9]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[9]PETSC ERROR: See docs/changes/index.html for recent updates.
+[9]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[9]PETSC ERROR: See docs/index.html for manual pages.
+[9]PETSC ERROR: ------------------------------------------------------------------------
+[9]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[9]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[9]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[9]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[9]PETSC ERROR: ------------------------------------------------------------------------
+[9]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[9]PETSC ERROR: MatICCFactorSymbolic_SeqAIJ() line 2570 in src/mat/impls/aij/seq/aijfact.c
+[9]PETSC ERROR: MatICCFactorSymbolic() line 6196 in src/mat/interface/matrix.c
+[9]PETSC ERROR: PCSetup_ICC() line 20 in src/ksp/pc/impls/factor/icc/icc.c
+[9]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[9]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[9]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[9]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[9]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[9]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[9]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[9]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[32]PETSC ERROR: [9]PETSC ERROR: --------------------- Error Message ------------------------------------
+STApply() line 67 in src/st/interface/stsolve.c
+[9]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[9]PETSC ERROR: [32]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+Out of memory. This could be due to allocating
+[9]PETSC ERROR: [32]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+too large an object or bleeding by not properly
+[9]PETSC ERROR: [32]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+destroying unneeded objects.
+[32]PETSC ERROR: Memory allocated 0 Memory used by process 16358817792
+[32]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[32]PETSC ERROR: Memory requested 287725896!
+[32]PETSC ERROR: ------------------------------------------------------------------------
+[32]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[32]PETSC ERROR: See docs/changes/index.html for recent updates.
+[32]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[32]PETSC ERROR: See docs/index.html for manual pages.
+[32]PETSC ERROR: ------------------------------------------------------------------------
+[32]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[32]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[32]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[32]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[32]PETSC ERROR: ------------------------------------------------------------------------
+[32]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[32]PETSC ERROR: MatICCFactorSymbolic_SeqAIJ() line 2570 in src/mat/impls/aij/seq/aijfact.c
+[32]PETSC ERROR: MatICCFactorSymbolic() line 6196 in src/mat/interface/matrix.c
+[32]PETSC ERROR: PCSetup_ICC() line 20 in src/ksp/pc/impls/factor/icc/icc.c
+[32]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[32]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[32]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[32]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[32]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[32]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[32]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[32]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[32]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[32]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[32]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[32]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[32]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[44]PETSC ERROR: --------------------- Error Message ------------------------------------
+[44]PETSC ERROR: Out of memory. This could be due to allocating
+[44]PETSC ERROR: too large an object or bleeding by not properly
+[44]PETSC ERROR: destroying unneeded objects.
+[44]PETSC ERROR: Memory allocated 0 Memory used by process 16748478464
+[44]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[44]PETSC ERROR: Memory requested 294459736!
+[44]PETSC ERROR: ------------------------------------------------------------------------
+[44]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[44]PETSC ERROR: See docs/changes/index.html for recent updates.
+[44]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[44]PETSC ERROR: See docs/index.html for manual pages.
+[44]PETSC ERROR: ------------------------------------------------------------------------
+[44]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[44]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[44]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[44]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[44]PETSC ERROR: ------------------------------------------------------------------------
+[44]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[44]PETSC ERROR: MatICCFactorSymbolic_SeqAIJ() line 2570 in src/mat/impls/aij/seq/aijfact.c
+[44]PETSC ERROR: MatICCFactorSymbolic() line 6196 in src/mat/interface/matrix.c
+[21]PETSC ERROR: --------------------- Error Message ------------------------------------
+[44]PETSC ERROR: [21]PETSC ERROR: PCSetup_ICC() line 20 in src/ksp/pc/impls/factor/icc/icc.c
+Out of memory. This could be due to allocating
+[44]PETSC ERROR: [21]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+too large an object or bleeding by not properly
+[44]PETSC ERROR: [21]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+destroying unneeded objects.
+[44]PETSC ERROR: [21]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+Memory allocated 0 Memory used by process 16564846592
+[44]PETSC ERROR: [21]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+Try running with -malloc_dump or -malloc_log for info.
+[44]PETSC ERROR: [21]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+Memory requested 291777064!
+[44]PETSC ERROR: [21]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+------------------------------------------------------------------------
+[44]PETSC ERROR: [21]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[44]PETSC ERROR: [21]PETSC ERROR: See docs/changes/index.html for recent updates.
+[21]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+See docs/faq.html for hints about trouble shooting.
+[44]PETSC ERROR: [21]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+See docs/index.html for manual pages.
+[44]PETSC ERROR: [21]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[44]PETSC ERROR: ------------------------------------------------------------------------
+EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[21]PETSC ERROR: [44]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+EPSSolve() line 130 in src/eps/interface/solve.c
+[21]PETSC ERROR: [44]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[21]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[21]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[21]PETSC ERROR: ------------------------------------------------------------------------
+[21]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[21]PETSC ERROR: MatICCFactorSymbolic_SeqAIJ() line 2570 in src/mat/impls/aij/seq/aijfact.c
+[21]PETSC ERROR: MatICCFactorSymbolic() line 6196 in src/mat/interface/matrix.c
+[21]PETSC ERROR: PCSetup_ICC() line 20 in src/ksp/pc/impls/factor/icc/icc.c
+[21]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[21]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[21]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[21]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[21]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[21]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[21]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[21]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[21]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[21]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[21]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[21]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[21]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[7]PETSC ERROR: --------------------- Error Message ------------------------------------
+[7]PETSC ERROR: Out of memory. This could be due to allocating
+[7]PETSC ERROR: too large an object or bleeding by not properly
+[7]PETSC ERROR: destroying unneeded objects.
+[7]PETSC ERROR: Memory allocated 0 Memory used by process 16345251840
+[7]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[7]PETSC ERROR: Memory requested 287634776!
+[7]PETSC ERROR: ------------------------------------------------------------------------
+[7]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[7]PETSC ERROR: See docs/changes/index.html for recent updates.
+[7]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[7]PETSC ERROR: See docs/index.html for manual pages.
+[7]PETSC ERROR: ------------------------------------------------------------------------
+[7]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 17:04:54 2012
+[7]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[7]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[7]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[7]PETSC ERROR: ------------------------------------------------------------------------
+[7]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[7]PETSC ERROR: MatICCFactorSymbolic_SeqAIJ() line 2570 in src/mat/impls/aij/seq/aijfact.c
+[7]PETSC ERROR: MatICCFactorSymbolic() line 6196 in src/mat/interface/matrix.c
+[7]PETSC ERROR: PCSetup_ICC() line 20 in src/ksp/pc/impls/factor/icc/icc.c
+[7]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[7]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[7]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[7]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[7]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[7]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[7]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[7]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[7]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[7]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[7]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[7]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[7]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[63]PETSC ERROR: --------------------- Error Message ------------------------------------
+[63]PETSC ERROR: Out of memory. This could be due to allocating
+[63]PETSC ERROR: too large an object or bleeding by not properly
+[63]PETSC ERROR: destroying unneeded objects.
+[63]PETSC ERROR: Memory allocated 0 Memory used by process 16332980224
+[63]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[63]PETSC ERROR: Memory requested 286436480!
+[63]PETSC ERROR: ------------------------------------------------------------------------
+[63]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[63]PETSC ERROR: See docs/changes/index.html for recent updates.
+[63]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[63]PETSC ERROR: See docs/index.html for manual pages.
+[63]PETSC ERROR: ------------------------------------------------------------------------
+[63]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[63]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[63]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[63]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[63]PETSC ERROR: ------------------------------------------------------------------------
+[63]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[63]PETSC ERROR: MatICCFactorSymbolic_SeqAIJ() line 2570 in src/mat/impls/aij/seq/aijfact.c
+[63]PETSC ERROR: MatICCFactorSymbolic() line 6196 in src/mat/interface/matrix.c
+[63]PETSC ERROR: PCSetup_ICC() line 20 in src/ksp/pc/impls/factor/icc/icc.c
+[63]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[63]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[63]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[63]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[63]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[63]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[63]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[63]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[63]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[63]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[63]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[63]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[63]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+[61]PETSC ERROR: --------------------- Error Message ------------------------------------
+[61]PETSC ERROR: Out of memory. This could be due to allocating
+[61]PETSC ERROR: too large an object or bleeding by not properly
+[61]PETSC ERROR: destroying unneeded objects.
+[61]PETSC ERROR: Memory allocated 0 Memory used by process 16856907776
+[61]PETSC ERROR: Try running with -malloc_dump or -malloc_log for info.
+[61]PETSC ERROR: Memory requested 299691560!
+[61]PETSC ERROR: ------------------------------------------------------------------------
+[61]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[61]PETSC ERROR: See docs/changes/index.html for recent updates.
+[61]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[61]PETSC ERROR: See docs/index.html for manual pages.
+[61]PETSC ERROR: ------------------------------------------------------------------------
+[61]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode1 by Unknown Sat Dec  8 17:04:54 2012
+[61]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[61]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[61]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[61]PETSC ERROR: ------------------------------------------------------------------------
+[61]PETSC ERROR: PetscMallocAlign() line 49 in src/sys/memory/mal.c
+[61]PETSC ERROR: MatICCFactorSymbolic_SeqAIJ() line 2570 in src/mat/impls/aij/seq/aijfact.c
+[61]PETSC ERROR: MatICCFactorSymbolic() line 6196 in src/mat/interface/matrix.c
+[61]PETSC ERROR: PCSetup_ICC() line 20 in src/ksp/pc/impls/factor/icc/icc.c
+[61]PETSC ERROR: PCSetUp() line 832 in src/ksp/pc/interface/precon.c
+[61]PETSC ERROR: KSPSetUp() line 278 in src/ksp/ksp/interface/itfunc.c
+[61]PETSC ERROR: PCSetUpOnBlocks_ASM() line 418 in src/ksp/pc/impls/asm/asm.c
+[61]PETSC ERROR: PCSetUpOnBlocks() line 865 in src/ksp/pc/interface/precon.c
+[61]PETSC ERROR: KSPSetUpOnBlocks() line 154 in src/ksp/ksp/interface/itfunc.c
+[61]PETSC ERROR: KSPSolve() line 403 in src/ksp/ksp/interface/itfunc.c
+[61]PETSC ERROR: STAssociatedKSPSolve() line 55 in src/st/interface/stsles.c
+[61]PETSC ERROR: STApply_Shift() line 37 in src/st/impls/shift/shift.c
+[61]PETSC ERROR: STApply() line 67 in src/st/interface/stsolve.c
+[61]PETSC ERROR: EPSGetStartVector() line 1343 in src/eps/interface/solve.c
+[61]PETSC ERROR: EPSSolve_KrylovSchur_Symm() line 47 in src/eps/impls/krylov/krylovschur/ks-symm.c
+[61]PETSC ERROR: EPSSolve() line 130 in src/eps/interface/solve.c
+[61]PETSC ERROR: SlepcAbs() line 69 in "unknowndirectory/"eigsol.cpp
+<Dec 08 19:42:10.583393> FE_MPI (WARN) : SignalHandler() -  
+<Dec 08 19:42:10.583477> FE_MPI (WARN) : SignalHandler() - !------------------------------------------------!
+<Dec 08 19:42:10.583512> FE_MPI (WARN) : SignalHandler() - ! mpirun is now taking all the necessary actions !
+<Dec 08 19:42:10.583546> FE_MPI (WARN) : SignalHandler() - ! to terminate the job and to free the resources !
+<Dec 08 19:42:10.583577> FE_MPI (WARN) : SignalHandler() - ! occupied by this job. This may take a while... !
+<Dec 08 19:42:10.583598> FE_MPI (WARN) : SignalHandler() - !------------------------------------------------!
+<Dec 08 19:42:10.583627> FE_MPI (WARN) : SignalHandler() -  
+<gru 08 19:43:37.043488> BE_MPI (WARN) : Received a message from frontend
+<gru 08 19:43:37.043569> BE_MPI (WARN) : Execution of the current command interrupted
+<gru 08 19:43:52.107591> BE_MPI (ERROR): The error message in the job record is as follows:
+<gru 08 19:43:52.107632> BE_MPI (ERROR):   "killed with signal 9"
+<Dec 08 19:42:26.077937> FE_MPI (ERROR): Failure list:
+<Dec 08 19:42:26.078001> FE_MPI (ERROR):   - 1. Execution interrupted by signal (failure #71)

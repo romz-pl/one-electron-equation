@@ -1,0 +1,14 @@
+#!/bin/bash
+
+MAKE=/p7data/opt/gnu/make/3.82/gcc4.2.0-powerpc/bin/make
+
+cp ./parmetis-4.0.2/Makefile       ../../lib/parmetis-4.0.2/
+cp ./parmetis-4.0.2/CMakeLists.txt ../../lib/parmetis-4.0.2/
+
+cd ../../lib/parmetis-4.0.2
+
+${MAKE} distclean
+${MAKE} config
+${MAKE} -j4
+
+

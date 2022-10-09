@@ -1,0 +1,78 @@
+#
+# Author: Zbigniew Romanowski
+# Date: 01 December 2012
+
+#
+# General parameters
+#
+General_BsplDeg     3
+General_CubatOrder  5
+
+
+
+#
+# Problem domain
+#
+
+Domain_X0    -20.0
+Domain_Y0    -20.0
+Domain_Z0    -20.0
+
+Domain_Nx    113
+Domain_Ny    113
+Domain_Nz    113
+Domain_h     0.4
+
+
+#######################################################
+#                                                     #
+#   S L E P C   EPS   P A R A M E T E R S             #
+#                                                     #
+#######################################################
+
+# Specify how many eigenvalues (and eigenvectors) to compute
+Slepc_eps_nev   100
+
+# Specify the largest dimension of the working subspace
+Slepc_eps_ncv   300
+
+# Specify the maximum projected dimension
+Slepc_eps_mpd   300
+
+# The maximum number of iterations allowed to the solution algorithm
+Slepc_eps_max_it  1500
+
+# Convergence toleracne
+Slepc_eps_tol  1E-4
+
+
+# The name of the method
+Slepc_eps_type   krylovschur
+
+
+
+#######################################################
+#                                                     #
+#   S L E P C   ST-KSP   P A R A M E T E R S          #
+#                                                     #
+#######################################################
+
+
+# Threshold parameter
+Slepc_st_ksp_rtol  1E-5
+
+# Number of levels
+Slepc_st_ksp_type  cg
+
+
+
+#######################################################
+#                                                     #
+#   S L E P C   ST-PC   P A R A M E T E R S           #
+#                                                     #
+#######################################################
+
+Slepc_st_pc_type  asm
+
+
+

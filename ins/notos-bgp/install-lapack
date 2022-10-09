@@ -1,0 +1,25 @@
+#!/bin/bash
+
+cp ./lapack-3.4.1/make.inc  ../../lib/lapack-3.4.1/
+
+cd ../../lib/lapack-3.4.1
+
+make cleanall
+
+#
+#  BLAS LIBRARY
+#
+cd BLAS/SRC
+make -j8 double
+mv libblas.a ../../libblas.a
+#
+#
+# USE ESSL library for Blue Gene/P: 
+# /opt/ibmmath/essl/4.4/lib/libesslbg.a
+
+#
+# LAPACK LIBRARY
+#
+cd ../../SRC
+make -j8 double
+

@@ -1,0 +1,54 @@
+========================================================================
+RSchr version 5.x
+Author: Zbigniew Romanowski
+e-mail: romz@wp.pl
+Interdisciplinary Centre for Mathematical and Computational Modelling
+University of Warsaw, POLAND
+========================================================================
+
+1. The program RSchr-5 is disributed in the source code form, as a one file:
+      rschr-5.x.tar.gz
+
+2. After unziping and untaring, one directory is created.
+
+3. The Program RSchr must be compiled by MPI C++ compiler.
+
+4. In order to compile and install RSchr-5, you must have 
+   installed on your computer:
+      - C++ compiler (g++)
+      - fortran compiler (gfortran)
+      - MPI (Message Passing Interface)
+
+5. In order to install RSchr-5 with all depedencies, from the 
+   main directory run the script:
+      ./install-all
+      
+6. The installation script ./install-all works fine on 
+   Linux with GCC compiler.
+
+7. On other systems the instalation script must be set up.
+   There are instalation scripts for 'IBM Blue Gene/P notos' and 
+   'IBM Power 775 boreasz'.
+
+8. Source files and Makefile are in ./src directory.
+
+9. The program RSchr depends on the following libraries:
+       - BLAS,
+       - LAPACK,
+       - MPI,
+       - PETSc,
+       - ParMetis,
+       - SLEPc
+       
+       
+10. All the above listed libraries (except MPI) are distributed with RSchr-5.
+
+
+11. After installation, the executable rschr.x can be found in the directory:
+      ./bin
+
+12. For more information, see README file and documentation in ./doc directory.
+
+
+----- END-OF-FILE -----
+

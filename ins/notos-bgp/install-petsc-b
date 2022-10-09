@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cp ./petsc-3.3-p5/aa.ll ../../lib/petsc-3.3-p5/
+
+cd ../../lib/petsc-3.3-p5/
+
+llsubmit aa.ll
+
+#
+# Wait until the submmited job is completed.
+# Then run script install-petsc-c
+#

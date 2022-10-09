@@ -1,0 +1,63 @@
+========================================================================
+RSchr version 5.x
+Author: Zbigniew Romanowski
+e-mail: romz@wp.pl
+Interdisciplinary Centre for Mathematical and Computational Modelling
+University of Warsaw, POLAND
+========================================================================
+
+
+REFERENCE ARTICLE:
+   Zbigniew Romanowski
+   B-spline solver for one-electron Schroedinger equation
+   Molecular Physics, Volume 109, Issue 22, pp. 2679-2691 (2011)
+========================================================================
+
+
+1. The program RSchr-5 calculates the smallest eigenvalues of 
+   the one-electron Schrödinger equation:
+
+   [ -0.5 * \nabla^2 + U(r) ] \Psi(r) = \lambda \Psi(r)
+
+2. This is the partial differential eigenvalue problem.
+
+3. The problem is defined on the finite domain \Omega.
+
+4. In the current implementation the domain \Omega is the box
+   given by the cartesian product: 
+     \Omega = [x0, x1] x [y0, y1] x [z0, z1]
+
+5. The problem is solved with the zero Dirichlet applied on the boundary 
+   of \Omega boundary conditions:
+       \Psi(t) = 0  for each t \in \Omega
+
+6. The implementation is based on Message Passing Interface (MPI).
+
+7. The discretization of the above differential eigenvalue problem is done
+   by Finite Element method with B-splines as a basis functions.
+   
+8. Disctretization leads to generalized eigenvalue problem.
+
+9. RSchr-5 solves the generalized eigenvalue problem using SLEPc amd PETSc libraries.
+   
+9. The program RSchr is implemented in C++, it runs under MPI.
+
+10. Further information related to the algorithm can be found in the reference article.
+
+11. The content of the main directory: 
+     bin/ ......... after instalation contains the binaries of RSchr program
+     doc/ ......... documentation
+     exm/ ......... examples
+     lib/ ........ libraries required by RSchr
+     log/ ......... after installation contains the log files
+     src/ ......... source code of the RSchr program
+     INSTALL ...... instllation instructions
+     README ....... this file
+     install-all .. installation script
+
+
+
+12. Instructions concerning the installation can be found in 'INSTALL' file.
+
+----- END-OF-FILE -----
+

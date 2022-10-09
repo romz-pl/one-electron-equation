@@ -1,0 +1,23 @@
+#!/bin/bash
+
+cd ../../lib
+tar -zxvf ./lapack-3.4.1.tar.gz
+cd ./lapack-3.4.1
+cp ../../ins/linux-gcc/lapack-3.4.1/make.inc ./make.inc
+
+make cleanall
+
+#
+#  BLAS LIBRARY
+#
+cd BLAS/SRC
+make -j4 double
+mv libblas.a ../../libblas.a
+
+
+#
+# LAPACK LIBRARY
+#
+cd ../../SRC
+make -j4 double
+

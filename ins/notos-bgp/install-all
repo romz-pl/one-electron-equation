@@ -1,0 +1,94 @@
+#!/bin/bash
+
+echo " "
+echo "---------------------------------------------"
+echo "   Automatic instalation of RSchr-5.x on"
+echo "   Bleue Gene/P notos DOES NOT WORK!"
+echo "   Read the INSTALL file in the following "
+echo "   directory: '${PWD}'"
+echo "---------------------------------------------"
+echo " "
+exit 1 
+
+echo "---------------------------------------"
+echo "Configuration for NOTOS - Blue Gene/P"
+echo "---------------------------------------"
+
+rm -f ../../bin/rschr.x
+
+rm -f ../../log/install-lapack.log
+rm -f ../../log/install-parmetis.log
+rm -f ../../log/install-petsc.log 
+rm -f ../../log/install-rschr.log
+rm -f ../../log/install-slepc.log
+
+
+echo -n "Installing BLAS-and-LAPACK..."
+./install-lapack > ../../log/install-lapack.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+
+echo -n "Installing ParMETIS.........."
+./install-parmetis > ../../log/install-parmetis.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+echo -n "Installing PETSc-a............"
+./install-petsc-a > ../../log/install-petsc-a.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+echo -n "Installing PETSc-b............"
+./install-petsc-b > ../../log/install-petsc-b.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+echo -n "Installing PETSc-c............"
+./install-petsc-c > ../../log/install-petsc-c.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+
+
+echo -n "Installing SLEPc............."
+./install-slepc > ../../log/install-slepc.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+
+echo -n "Installing RSchr............."
+./install-rschr > ../../log/install-rschr.log 2>&1
+if [ $? -ne 0 ]
+then
+	echo -e "ERROR. See the log file. Aborting!"; exit 1
+else
+	echo "Ok"
+fi
+
+echo "The installation has been successfully completed!"
+

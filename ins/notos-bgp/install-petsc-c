@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# LAPACK_DIR=$PWD/../../lib/lapack-3.4.1
+# BLAS_DIR=$PWD/../../lib/lapack-3.4.1
+
+export PETSC_DIR=${PWD}/../../lib/petsc-3.3-p5
+export PETSC_ARCH=aa-aa
+
+
+cd ${PETSC_DIR}
+
+./reconfigure-aa-aa.py
+
+make -j8 all
+

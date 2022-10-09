@@ -1,0 +1,21 @@
+#!/bin/bash
+
+rm -f ./bin/rschr.x
+
+rm -f ./log/install-lapack.log
+rm -f ./log/install-parmetis.log
+rm -f ./log/install-petsc.log
+rm -f ./log/install-rschr.log
+rm -f ./log/install-slepc.log
+
+
+
+rm -rf ./lib/lapack-3.4.1
+rm -rf ./lib/parmetis-4.0.2
+rm -rf ./lib/petsc-3.3-p5
+rm -rf ./lib/slepc-3.3-p3
+
+cd src
+make clean
+
+

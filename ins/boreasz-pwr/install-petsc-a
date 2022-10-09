@@ -1,0 +1,95 @@
+#!/bin/bash
+
+MAKE=/p7data/opt/gnu/make/3.82/gcc4.2.0-powerpc/bin/make
+CMAKE=/p7data/opt/cmake/2.8.9/bin/cmake
+
+
+LAPACK_DIR=${PWD}/../../lib/lapack-3.4.1
+BLAS_DIR=${PWD}/../../lib/lapack-3.4.1
+
+PARMETIS_INC=${PWD}/../../lib/parmetis-4.0.2/include
+PARMETIS_LIB=${PWD}/../../lib/parmetis-4.0.2/build/aa-aa/libparmetis/libparmetis.a
+
+METIS_INC=${PWD}/../../lib/parmetis-4.0.2/metis/include
+METIS_LIB=${PWD}/../../lib/parmetis-4.0.2/build/aa-aa/libmetis/libmetis.a
+
+export PETSC_DIR=${PWD}/../../lib/petsc-3.3-p5
+export PETSC_ARCH=aa-aa
+
+export OBJECT_MODE='64'
+
+cd ${PETSC_DIR}
+
+# make allclean
+rm -r -f ./${PETSC_ARCH}
+
+
+./configure    \
+--with-cc=mpcc_r \
+--with-fc=mpxlf_r \
+--with-blas-lib=/usr/lib/libessl.a \
+--with-lapack-lib=${LAPACK_DIR}/liblapack.a \
+--with-debugging=0 \
+--COPTFLAGS='-q64 -O3 -qarch=pwr7 -qtune=pwr7 -qmaxmem=-1 -qsimd=auto -qhot=level=2 -qcache=auto -DNDEBUG -qsuppress=1500-036' \
+--FOPTFLAGS='-q64 -O3 -qarch=pwr7 -qtune=pwr7 -qmaxmem=-1 -qsimd=auto -qhot=level=2 -qcache=auto -qsuppress=cmpmsg -qsuppress=1500-036' \
+--CC_LINKER_FLAGS='-q64' \
+--FC_LINKER_FLAGS='-q64' \
+--with-ar='ar -X64' \
+--with-x=0 \
+--with-cmake=${CMAKE} \
+--with-shared-libraries=0 \
+--with-batch=1 \
+--known-mpi-shared-libraries=0 \
+--with-make=${MAKE} \
+--with-make-np=8 \
+--with-pthread=0 \
+--with-fortran-kernels=1 \
+--with-memalign=16 \
+--with-gnu-compilers=0 \
+--with-parmetis=1 \
+--with-parmetis-include=${PARMETIS_INC} \
+--with-parmetis-lib=${PARMETIS_LIB} \
+--with-metis=1 \
+--with-metis-include=${METIS_INC} \
+--with-metis-lib=${METIS_LIB} 
+
+
+
+# /opt/ibmhpc/pecurrent/ppe.poe/
+
+#./configure \
+#AR='ar -X32' \
+#CFLAGS='-q32 -g -O3 -qstrict -qarch=pwr7 -qtune=pwr7 -qsimd=auto -qmaxmem=-1' \
+#CXXFLAGS='-q32 -g -O3 -qstrict -qarch=pwr7 -qtune=pwr7 -qsimd=auto -qmaxmem=-1' \
+#FFLAGS='-q32 -g -O3 -qstrict -qarch=pwr7 -qtune=pwr7 -qsimd=auto -qmaxmem=-1' \
+#LDFLAGS='-q32' \
+#--with-batch \
+#--with-c='mpcc_r' \
+#--with-mpi-dir='/usr/lpp/bos/inst_root/opt/ibmhpc/pe1105/ppe.poe' \
+#--known-mpi-shared-libraries='0' \
+#--with-make='gmake' \
+#--with-c++-support='1' \
+#--with-c-support='1' \
+#--with-fortran='1' \
+#--with-blas-lib=${BLAS_DIR}/libblas.a \
+#--with-lapack-lib=${LAPACK_DIR}/liblapack.a
+
+# --COPTFLAGS='-q32 -O0' \
+# --FOPTFLAGS='-q32 -O0' \
+
+# 
+
+# --COPTFLAGS='-q32 -O3 -qarch=pwr7 -qtune=pwr7 -qmaxmem=-1 -qhot -qsimd=auto' \
+# --FOPTFLAGS='-q32 -O3 -qarch=pwr7 -qtune=pwr7 -qmaxmem=-1 -qhot -qsimd=auto' \
+# --with-blas-lib=${BLAS_DIR}/libblas.a
+# --with-blas-lib=/usr/lib/libessl.a
+
+#--CC_LINKER_FLAGS='-q64 -O4' \
+#--FC_LINKER_FLAGS='-q64 -O4' \
+
+
+# --with-mpi-dir='/usr/lpp/bos/inst_root/opt/ibmhpc/pe1105/ppe.poe' \
+
+
+# make all
+

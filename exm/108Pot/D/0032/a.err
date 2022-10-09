@@ -1,0 +1,632 @@
+[7]PETSC ERROR: [3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: ------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[7]PETSC ERROR: [3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+Caught signal number 15 Terminate: Somet process (or the batch system) has told this process to end
+[7]PETSC ERROR: [3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[0]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+Try option -start_in_debugger or -on_error_attach_debugger
+[7]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind[4]PETSC ERROR: [0]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind[7]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrindor see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[7]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: [5]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+[7]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+configure using --with-debugging=yes, recompile, link, and run 
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: to get more information on the crash.
+[5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+[7]PETSC ERROR: to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+to get more information on the crash.
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: --------------------- Error Message ------------------------------------
+[5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: --------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+[7]PETSC ERROR: --------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+--------------------- Error Message ------------------------------------
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: Signal received!
+[5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+[7]PETSC ERROR: Signal received!
+Signal received!
+Signal received!
+Signal received!
+Signal received!
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: ------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[7]PETSC ERROR: ------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[7]PETSC ERROR: Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+Petsc Release Version 3.3.0, Patch 5, Sat Dec  1 15:10:41 CST 2012 
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: See docs/changes/index.html for recent updates.
+[5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+[7]PETSC ERROR: See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+See docs/changes/index.html for recent updates.
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: [1]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+[5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+[7]PETSC ERROR: See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+See docs/faq.html for hints about trouble shooting.
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: See docs/index.html for manual pages.
+[1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+[7]PETSC ERROR: See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+See docs/index.html for manual pages.
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: ------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[7]PETSC ERROR: ------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+[1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+[7]PETSC ERROR: /bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+/bgdata/home/users/romz/rschr-5.4/bin/rschr.x on a aa-aa named ionode0 by Unknown Sat Dec  8 16:55:46 2012
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: [0]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[7]PETSC ERROR: Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+Libraries linked from /bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/petsc-3.3-p5/aa-aa/lib
+[3]PETSC ERROR: [19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[0]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+[7]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+Configure run at Sat Dec  8 14:32:46 2012
+[3]PETSC ERROR: Configure run at Sat Dec  8 14:32:46 2012
+[19]PETSC ERROR: [23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: [17]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: [4]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -[0]PETSC ERROR: Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 -Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+Configure options --known-level1-dcache-size=32768 --known-level1-dcache-linesize=32 --known-level1-dcache-assoc=0 --known-memcmp-ok=1 --known-sizeof-char=1 --known-sizeof-void-p=4 --known-sizeof-short=2 --known-sizeof-int=4 --known-sizeof-long=4 --known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[7]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+-known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[3]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[19]PETSC ERROR: -known-sizeof-long-long=8 --known-sizeof-float=4 --known-sizeof-double=8 --known-sizeof-size_t=4 --known-bits-per-byte=8 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-mpi-long-double=1 --with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r --with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r --with-blas-lib=/opt/ibmmath/essl/4.4/lib/libesslbg.a --with-lapack-lib=/bgdata/home/users/romz/rschr-5.4/ins/notos-bgp/../../lib/lapack-3.4.1/liblapack.a --with-debugging=0 --COPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --FOPTFLAGS="-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot" --with-x=0 --with-cmake=cmake --with-shared-libraries=0 --with-batch=1 --known-mpi-shared-libraries=0 --with-ranlib=ranlib --with-make=make --with-make-np=6 --with-pthread=0 --with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar --AR_FLAGS=rcs --with-fortran-kernels=1
+[23]PETSC ERROR: [22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: ------------------------------------------------------------------------
+[17]PETSC ERROR: [1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: ------------------------------------------------------------------------
+[4]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: ------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[7]PETSC ERROR: ------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+[3]PETSC ERROR: ------------------------------------------------------------------------
+[19]PETSC ERROR: [23]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: [26]PETSC ERROR: [25]PETSC ERROR: [29]PETSC ERROR: [13]PETSC ERROR: [9]PETSC ERROR: [24]PETSC ERROR: [12]PETSC ERROR: [8]PETSC ERROR: [10]PETSC ERROR: [14]PETSC ERROR: [30]PETSC ERROR: [11]PETSC ERROR: [15]PETSC ERROR: [31]PETSC ERROR: [27]PETSC ERROR: [6]PETSC ERROR: [18]PETSC ERROR: [21]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[17]PETSC ERROR: [1]PETSC ERROR: [5]PETSC ERROR: [20]PETSC ERROR: [16]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+[4]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+[0]PETSC ERROR: User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+Abort(59) on node 7 (rank 7 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 7
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+User provided function() line 0 in unknown directory unknown file
+Abort(59) on node 3 (rank 3 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 3
+User provided function() line 0 in unknown directory unknown file
+Abort(59) on node 19 (rank 19 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 19
+Abort(59) on node 23 (rank 23 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 23
+User provided function() line 0 in unknown directory unknown file
+Abort(59) on node 22 (rank 22 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 22
+Abort(59) on node 26 (rank 26 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 26
+Abort(59) on node 25 (rank 25 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 25
+Abort(59) on node 29 (rank 29 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 29
+Abort(59) on node 13 (rank 13 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 13
+Abort(59) on node 9 (rank 9 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 9
+Abort(59) on node 24 (rank 24 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 24
+Abort(59) on node 12 (rank 12 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 12
+Abort(59) on node 8 (rank 8 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 8
+Abort(59) on node 10 (rank 10 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 10
+Abort(59) on node 14 (rank 14 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 14
+Abort(59) on node 30 (rank 30 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 30
+Abort(59) on node 11 (rank 11 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 11
+Abort(59) on node 15 (rank 15 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 15
+Abort(59) on node 31 (rank 31 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 31
+Abort(59) on node 27 (rank 27 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 27
+Abort(59) on node 6 (rank 6 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 6
+Abort(59) on node 18 (rank 18 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 18
+Abort(59) on node 21 (rank 21 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 21
+Abort(59) on node 17 (rank 17 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 17
+Abort(59) on node 1 (rank 1 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 1
+Abort(59) on node 5 (rank 5 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 5
+Abort(59) on node 20 (rank 20 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 20
+Abort(59) on node 16 (rank 16 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 16
+Abort(59) on node 4 (rank 4 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 4
+Abort(59) on node 0 (rank 0 in comm 1140850688): application called MPI_Abort(MPI_COMM_WORLD, 59) - process 0
+<gru 08 17:57:24.646347> BE_MPI (ERROR): The error message in the job record is as follows:
+<gru 08 17:57:24.646409> BE_MPI (ERROR):   "killed with signal 6"

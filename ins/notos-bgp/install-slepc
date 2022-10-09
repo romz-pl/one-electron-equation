@@ -1,0 +1,18 @@
+#!/bin/bash
+
+export PETSC_DIR=${PWD}/../../lib/petsc-3.3-p5
+export SLEPC_DIR=${PWD}/../../lib/slepc-3.3-p3
+
+export PETSC_ARCH=aa-aa
+
+
+cd ${SLEPC_DIR}
+
+make allclean
+rm -r -f ./${PETSC_ARCH}
+
+./configure
+
+make -j8 all
+
+

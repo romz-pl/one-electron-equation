@@ -1,0 +1,93 @@
+#!/bin/bash
+
+LAPACK_LIB=${PWD}/../../lib/lapack-3.4.1/liblapack.a
+BLAS_LIB=/opt/ibmmath/essl/4.4/lib/libesslbg.a
+# BLAS_LIB=$PWD/../../lib/lapack-3.4.1/blaslib.a
+
+
+PARMETIS_INC=${PWD}/../../lib/parmetis-4.0.2/include
+PARMETIS_LIB=${PWD}/../../lib/parmetis-4.0.2/build/aa-aa/libparmetis/libparmetis.a
+
+METIS_INC=${PWD}/../../lib/parmetis-4.0.2/metis/include
+METIS_LIB=${PWD}/../../lib/parmetis-4.0.2/build/aa-aa/libmetis/libmetis.a
+
+export PETSC_DIR=${PWD}/../../lib/petsc-3.3-p5
+export PETSC_ARCH=aa-aa
+
+
+cd ${PETSC_DIR}
+
+make allclean
+rm -r -f ./${PETSC_ARCH}
+
+# -qrtti=all
+
+
+./configure    \
+--with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r \
+--with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r \
+--with-blas-lib=${BLAS_LIB} \
+--with-lapack-lib=${LAPACK_LIB} \
+--with-debugging=0 \
+--COPTFLAGS='-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot -DNDEBUG -qsuppress=1500-036' \
+--FOPTFLAGS='-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot -qsuppress=cmpmsg -qsuppress=1500-036' \
+--with-x=0 \
+--with-cmake=cmake \
+--with-shared-libraries=0 \
+--with-batch=1 \
+--known-mpi-shared-libraries=0 \
+--with-ranlib=ranlib \
+--with-make=make \
+--with-make-np=8 \
+--with-pthread=0 \
+--with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar \
+--AR_FLAGS=rcs \
+--with-fortran-kernels=1 
+
+# --with-memalign=16
+
+#--with-parmetis=1 \
+#--with-parmetis-include=${PARMETIS_INC} \
+#--with-parmetis-lib=${PARMETIS_LIB} \
+#--with-metis=1 \
+#--with-metis-include=${METIS_INC} \
+#--with-metis-lib=${METIS_LIB} 
+
+
+
+
+
+#./configure    \
+#--with-cc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlc_r \
+#--with-fc=/bgsys/drivers/ppcfloor/comm/default/bin/mpixlf90_r \
+#--with-blas-lib=${BLAS_LIB} \
+#--with-lapack-lib=${LAPACK_LIB} \
+#--with-debugging=0 \
+#--COPTFLAGS='-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot -DNDEBUG -qsuppress=1500-036' \
+#--FOPTFLAGS='-O3 -qarch=450 -qtune=450 -qmaxmem=-1 -qhot -qsuppress=cmpmsg -qsuppress=1500-036' \
+#--with-x=0 \
+#--with-cmake=cmake \
+#--with-shared-libraries=0 \
+#--with-batch=1 \
+#--known-mpi-shared-libraries=0 \
+#--with-ranlib=ranlib \
+#--with-make=make \
+#--with-make-np=1 \
+#--with-pthread=0 \
+#--with-ar=/bgsys/drivers/ppcfloor/gnu-linux/bin/powerpc-bgp-linux-ar \
+#--AR_FLAGS=rcs \
+#--with-fortran-kernels=1 
+
+#--with-parmetis=1 \
+#--with-parmetis-include=${PARMETIS_INC} \
+#--with-parmetis-lib=${PARMETIS_LIB} \
+#--with-metis=1 \
+#--with-metis-include=${METIS_INC} \
+#--with-metis-lib=${METIS_LIB} 
+
+
+
+
+# make all
+
+

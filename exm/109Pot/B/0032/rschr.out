@@ -1,0 +1,395 @@
+===============================================================================
+ RRRRR  SSSSS  H   H  RRRRR    Zbigniew ROMANOWSKI                             
+ R   R  S      H   H  R   R                                                    
+ RRRRR  SSSSS  HHHHH  RRRRR    version: 5.4                                    
+ R  R       S  H   H  R  R                                                     
+ R   R  SSSSS  H   H  R   R    compilation date: Dec  8 2012 (20:50:40)                       
+===============================================================================
+
+PEs = 32
+
+----INITIALIZATION----========================================================
+DOMAIN:
+    BsplDeg = 3, CubatOrder = 5, CubatNodeNo = 125
+    h = 4.000000E-01
+    Nx = 113,    Ny = 113,   Nz = 113
+    X0 = -2.000000E+01,    Xmax = 2.520000E+01
+    Y0 = -2.000000E+01,    Ymax = 2.520000E+01
+    Z0 = -2.000000E+01,    Zmax = 2.520000E+01
+
+NUMBER OF 'ATOMS' = 125
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 0.00, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 0.00, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 0.00, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 0.00, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 0.00, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 1.30, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 1.30, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 1.30, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 1.30, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 1.30, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 2.60, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 2.60, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 2.60, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 2.60, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 2.60, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 3.90, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 3.90, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 3.90, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 3.90, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 3.90, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 5.20, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 5.20, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 5.20, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 5.20, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 0.00, 5.20, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 0.00, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 0.00, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 0.00, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 0.00, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 0.00, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 1.30, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 1.30, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 1.30, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 1.30, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 1.30, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 2.60, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 2.60, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 2.60, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 2.60, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 2.60, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 3.90, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 3.90, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 3.90, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 3.90, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 3.90, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 5.20, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 5.20, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 5.20, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 5.20, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 1.30, 5.20, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 0.00, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 0.00, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 0.00, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 0.00, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 0.00, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 1.30, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 1.30, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 1.30, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 1.30, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 1.30, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 2.60, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 2.60, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 2.60, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 2.60, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 2.60, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 3.90, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 3.90, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 3.90, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 3.90, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 3.90, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 5.20, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 5.20, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 5.20, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 5.20, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 2.60, 5.20, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 0.00, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 0.00, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 0.00, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 0.00, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 0.00, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 1.30, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 1.30, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 1.30, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 1.30, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 1.30, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 2.60, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 2.60, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 2.60, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 2.60, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 2.60, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 3.90, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 3.90, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 3.90, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 3.90, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 3.90, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 5.20, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 5.20, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 5.20, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 5.20, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 3.90, 5.20, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 0.00, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 0.00, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 0.00, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 0.00, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 0.00, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 1.30, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 1.30, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 1.30, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 1.30, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 1.30, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 2.60, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 2.60, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 2.60, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 2.60, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 2.60, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 3.90, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 3.90, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 3.90, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 3.90, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 3.90, 5.20)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 5.20, 0.00)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 5.20, 1.30)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 5.20, 2.60)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 5.20, 3.90)
+    Soft-r^4(d,a)=(-2.00, 0.10) at (x,y,z) = ( 5.20, 5.20, 5.20)
+
+
+----GRAPH-CREATION-and-PARTITIONING----=======================================
+      Setup: Max:   7.319, Sum: 234.222, Balance:   1.000
+   Matching: Max:   4.761, Sum: 152.364, Balance:   1.000
+Contraction: Max:   3.052, Sum:  97.669, Balance:   1.000
+   InitPart: Max:   0.062, Sum:   1.989, Balance:   1.000
+    Project: Max:   0.003, Sum:   0.098, Balance:   1.028
+ Initialize: Max:   2.011, Sum:  64.335, Balance:   1.000
+      K-way: Max:   5.991, Sum: 191.721, Balance:   1.000
+      Remap: Max:   0.001, Sum:   0.033, Balance:   1.000
+      Total: Max:  23.201, Sum: 742.447, Balance:   1.000
+Final  32-way Cut: 21482615 	Balance: 1.050 
+
+    Number of nodes:
+         Rank0.........4.320E+04
+         Averg.........4.159E+04
+         Total.........1.331E+06
+    Number of edges:
+         Rank0.........1.364E+07
+         Averg.........1.357E+07
+         Total.........4.342E+08
+    Memory usage.[MB]:
+         Rank0.........2.088E+02
+         Averg.........2.077E+02
+         Total.........6.646E+03
+
+
+----MATRIX-ALLOCATION----=====================================================
+    Dimension of matrix H or S:
+              Rank0..............4.320E+04 (43204)
+              Averg..............4.159E+04       
+              Total..............1.331E+06 (1331000)
+    Nonzero entries in H or S:
+              Rank0..............1.368E+07 (13681249)
+              Averg..............1.361E+07       
+              Total..............4.355E+08 (435519512)
+    Sparseness of H or S (fraction):
+              Rank0..............2.379E-04
+              Averg..............2.458E-04
+    Sparseness of H or S (non-zero elemnts in a row):
+              Rank0..............316.7
+              Averg..............327.2
+    Memory usage for H and S [MiB]:
+              Rank0..............4.175E+02
+              Averg..............4.153E+02
+              Total..............1.329E+04
+
+
+----ASSEMBLING----============================================================
+..........10..........20..........30..........40..........50done
+Assembling time = 413 [s]
+
+
+
+----SOLVING----===============================================================
+EPS Object: 32 MPI processes
+  type: krylovschur
+    Krylov-Schur: 50% of basis vectors kept after restart
+  problem type: generalized symmetric eigenvalue problem
+  extraction type: Rayleigh-Ritz
+  selected portion of the spectrum: smallest real parts
+  number of eigenvalues (nev): 100
+  number of column vectors (ncv): 300
+  maximum dimension of projected problem (mpd): 300
+  maximum number of iterations: 1500
+  tolerance: 0.0001
+  convergence test: relative to the eigenvalue
+  estimates of matrix norms (constant): norm(A)=1, norm(B)=1
+IP Object: 32 MPI processes
+  type: bilinear
+  orthogonalization method: classical Gram-Schmidt
+  orthogonalization refinement: if needed (eta: 0.7071)
+  Matrix Object:   32 MPI processes
+    type: mpiaij
+    rows=1331000, cols=1331000
+    total: nonzeros=435519512, allocated nonzeros=435519512
+    total number of mallocs used during MatSetValues calls =0
+      not using I-node (on process 0) routines
+DS Object: 32 MPI processes
+  type: hep
+  solving the problem with: Implicit QR method (_steqr)
+ST Object: 32 MPI processes
+  type: shift
+  shift: 0
+  matrices A and B have same nonzero pattern
+  KSP Object:  (st_)   32 MPI processes
+    type: cg
+    maximum iterations=10000
+    using preconditioner applied to right hand side for initial guess
+    tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+    left preconditioning
+    using nonzero initial guess
+    using PRECONDITIONED norm type for convergence test
+  PC Object:  (st_)   32 MPI processes
+    type: asm
+      Additive Schwarz: total subdomain blocks = 32, amount of overlap = 1
+      Additive Schwarz: restriction/interpolation type - RESTRICT
+      Local solve is same for all blocks, in the following KSP and PC objects:
+    KSP Object:    (st_sub_)     1 MPI processes
+      type: preonly
+      maximum iterations=10000, initial guess is zero
+      tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+      left preconditioning
+      using DEFAULT norm type for convergence test
+    PC Object:    (st_sub_)     1 MPI processes
+      type: icc
+        0 levels of fill
+        tolerance for zero pivot 2.22045e-14
+        using Manteuffel shift
+        matrix ordering: natural
+      linear system matrix = precond matrix:
+      Matrix Object:       1 MPI processes
+        type: seqaij
+        rows=57996, cols=57996
+        total: nonzeros=17392056, allocated nonzeros=17392056
+        total number of mallocs used during MatSetValues calls =0
+          not using I-node routines
+    linear system matrix = precond matrix:
+    Matrix Object:     32 MPI processes
+      type: mpiaij
+      rows=1331000, cols=1331000
+      total: nonzeros=435519512, allocated nonzeros=435519512
+      total number of mallocs used during MatSetValues calls =0
+        not using I-node (on process 0) routines
+
+
+  1 EPS nconv=10 first unconverged value (error) -18.8108 (9.84878071e-04)
+  2 EPS nconv=12 first unconverged value (error) -18.8128 (9.39597207e-04)
+  3 EPS nconv=24 first unconverged value (error) -17.7745 (2.30627138e-04)
+  4 EPS nconv=34 first unconverged value (error) -17.2331 (1.08424301e-04)
+  5 EPS nconv=54 first unconverged value (error) -16.6548 (1.58594988e-04)
+  6 EPS nconv=55 first unconverged value (error) -16.693 (1.07219287e-04)
+  7 EPS nconv=100 first unconverged value (error) -14.7757 (5.44531370e-03)
+
+--------------------------------------------------------------
+    Number of iterations of the method.............7
+    Number of linear iterations of the method......4428
+    Solution method................................krylovschur
+    Number of requested eigenvalues................100
+    Stopping condition: eps_tol....................1.000000E-04
+    Stopping condition: eps_max_it.................1500
+--------------------------------------------------------------
+
+
+             EIGENVALUES            ERROR
+====================================================
+    0    -2.0410998591E+01     2.7704773377E-08
+    1    -1.9859270565E+01     4.2801872722E-08
+    2    -1.9859268619E+01     2.7416506944E-08
+    3    -1.9859266757E+01     3.2447702077E-08
+    4    -1.9359744293E+01     3.1306050472E-08
+    5    -1.9345371806E+01     1.8006006426E-07
+    6    -1.9345370421E+01     6.1945070796E-08
+    7    -1.9316661806E+01     3.5910339684E-08
+    8    -1.9316658787E+01     4.2598564380E-08
+    9    -1.9316656209E+01     5.4263173729E-08
+   10    -1.8812846901E+01     3.4816857463E-08
+   11    -1.8812845674E+01     3.1542510302E-08
+   12    -1.8812845648E+01     1.3801191497E-07
+   13    -1.8803478624E+01     6.8768232072E-08
+   14    -1.8803477525E+01     4.6917678922E-08
+   15    -1.8803476608E+01     7.1324558244E-08
+   16    -1.8782699140E+01     4.3265953435E-08
+   17    -1.8317425970E+01     3.6014837041E-08
+   18    -1.8303072822E+01     3.8721873173E-08
+   19    -1.8303068561E+01     4.9324399888E-08
+   20    -1.8274706062E+01     7.6997671596E-08
+   21    -1.8274704682E+01     6.1041678152E-08
+   22    -1.8274702376E+01     7.5316437778E-08
+   23    -1.7774510410E+01     3.9914543722E-07
+   24    -1.7774508670E+01     3.3406442725E-08
+   25    -1.7774505075E+01     4.6939080624E-08
+   26    -1.7724649010E+01     5.1557745105E-08
+   27    -1.7724647450E+01     4.5582345215E-08
+   28    -1.7724640562E+01     6.5768354326E-08
+   29    -1.7662334767E+01     5.2477657236E-08
+   30    -1.7656632667E+01     5.5198418978E-08
+   31    -1.7656626383E+01     5.8077237790E-08
+   32    -1.7281607798E+01     4.5913146039E-08
+   33    -1.7233104358E+01     6.3087323639E-08
+   34    -1.7233098662E+01     5.8950763296E-08
+   35    -1.7233094038E+01     6.6478530375E-08
+   36    -1.7200818678E+01     6.0515102547E-08
+   37    -1.7200813913E+01     6.3447552482E-08
+   38    -1.7200811136E+01     6.6914366023E-08
+   39    -1.7154957319E+01     5.8758601659E-08
+   40    -1.7154954809E+01     6.3696568113E-08
+   41    -1.7154951034E+01     7.0219769596E-08
+   42    -1.7151207117E+01     6.6235726023E-08
+   43    -1.7151202778E+01     6.3681358825E-08
+   44    -1.7151201383E+01     6.8510639158E-08
+   45    -1.6748594451E+01     6.0338623287E-08
+   46    -1.6701295891E+01     6.6870354868E-07
+   47    -1.6701292391E+01     7.4152007958E-08
+   48    -1.6701288090E+01     1.2056713402E-06
+   49    -1.6700633103E+01     1.9374754166E-07
+   50    -1.6700627494E+01     1.6953009067E-07
+   51    -1.6693012332E+01     3.5328867522E-07
+   52    -1.6693007246E+01     6.4060222280E-08
+   53    -1.6693005801E+01     4.8066944287E-07
+   54    -1.6673178019E+01     6.3236775932E-08
+   55    -1.6664640102E+01     2.3517745323E-07
+   56    -1.6664631047E+01     4.4105067401E-07
+   57    -1.6654816000E+01     7.2950676306E-08
+   58    -1.6654813727E+01     4.8210113552E-08
+   59    -1.6654810395E+01     8.1160320128E-08
+   60    -1.6609501556E+01     5.8399744366E-08
+   61    -1.6609494667E+01     6.5365696903E-08
+   62    -1.6600564164E+01     6.3918117811E-08
+   63    -1.6212260400E+01     1.1368834644E-07
+   64    -1.6212257658E+01     7.7099646301E-08
+   65    -1.6212252942E+01     9.0516804527E-08
+   66    -1.6183017808E+01     6.9559204263E-08
+   67    -1.6183016165E+01     7.2697993122E-08
+   68    -1.6183013234E+01     8.2758893281E-08
+   69    -1.6170091739E+01     6.7251903873E-08
+   70    -1.6170089327E+01     6.3512099913E-08
+   71    -1.6170086280E+01     6.6283353542E-08
+   72    -1.6108301478E+01     6.5515636686E-08
+   73    -1.6108299590E+01     6.7278576218E-08
+   74    -1.6108296744E+01     8.4979203107E-08
+   75    -1.5687507602E+01     6.3865058000E-08
+   76    -1.5685588886E+01     6.0043107264E-07
+   77    -1.5685587109E+01     9.0192985946E-08
+   78    -1.5685577496E+01     1.1766515202E-07
+   79    -1.5601382860E+01     2.2406620220E-07
+   80    -1.5601375814E+01     1.2073319689E-07
+   81    -1.5336340233E+01     7.3722806975E-08
+   82    -1.5336338469E+01     7.7161845487E-08
+   83    -1.5336334431E+01     8.6884766775E-08
+   84    -1.5268929235E+01     2.3516036141E-07
+   85    -1.5268925020E+01     1.1085065089E-06
+   86    -1.5268920893E+01     2.3181841397E-07
+   87    -1.5264816447E+01     2.4068354373E-07
+   88    -1.5264814724E+01     1.0875348330E-06
+   89    -1.5264807543E+01     5.0006076561E-07
+   90    -1.5204061332E+01     7.6589107301E-08
+   91    -1.5197887997E+01     7.6498157506E-08
+   92    -1.5197882552E+01     1.0018760357E-07
+   93    -1.4896508110E+01     8.1388132363E-08
+   94    -1.4848545039E+01     1.5068363602E-07
+   95    -1.4848539876E+01     2.6307088013E-07
+   96    -1.4813261978E+01     6.8261512033E-07
+   97    -1.4813257724E+01     4.5156004655E-07
+   98    -1.4779999033E+01     2.7320488043E-07
+   99    -1.4779990662E+01     1.7373388039E-07
+
+
+ TOTAL TIME = 7674 [s]

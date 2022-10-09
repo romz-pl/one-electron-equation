@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#
+# Run the program from the comman line
+#
+mpirun -np 4 ../../../../bin/rschr.x -a ./param.inp -b ./pot.def > rschr.out
+
+
+

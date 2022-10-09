@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "
+===============================================================================
+ INSTALLING   RRRRR  SSSSS  H   H  RRRRR    Zbigniew ROMANOWSKI       
+              R   R  S      H   H  R   R                               
+              RRRRR  SSSSS  HHHHH  RRRRR    romz@wp.pl
+              R  R       S  H   H  R  R                               
+              R   R  SSSSS  H   H  R   R    version: 5.x
+
+Interdisciplinary Centre for Mathematical and Computational Modelling
+University of Warsaw, POLAND
+==============================================================================="
+echo "Please, be patient. It takes a while..."
+echo "Installation logs are in ./log directory."
+echo " "
+
+./clean-all > /dev/null
+
+cd ./ins/linux-gcc
+
+# cd ./ins/notos-bgp
+# cd ./ins/boreasz-pwr
+
+./install-all
+

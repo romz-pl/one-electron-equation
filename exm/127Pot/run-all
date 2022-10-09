@@ -1,0 +1,25 @@
+#!/bin/bash
+
+cd w1.35
+./run-mpi
+
+cd ../w1.40
+./run-mpi
+
+cd ../w1.45
+./run-mpi
+
+cd ../w1.50
+./run-mpi
+
+cd ../w1.55
+./run-mpi
+
+cd ../w1.60
+./run-mpi
+
+cd ../w1.65
+./run-mpi
+
+cd ../w1.70
+./run-mpi

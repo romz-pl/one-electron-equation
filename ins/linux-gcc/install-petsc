@@ -1,0 +1,59 @@
+#!/bin/bash
+
+LAPACK_LIB=${PWD}/../../lib/lapack-3.4.1/liblapack.a
+BLAS_LIB=${PWD}/../../lib/lapack-3.4.1/libblas.a
+
+
+
+PARMETIS_INC=${PWD}/../../lib/parmetis-4.0.2/include
+PARMETIS_LIB=${PWD}/../../lib/parmetis-4.0.2/build/aa-aa/libparmetis/libparmetis.a
+
+METIS_INC=${PWD}/../../lib/parmetis-4.0.2/metis/include
+METIS_LIB=${PWD}/../../lib/parmetis-4.0.2/build/aa-aa/libmetis/libmetis.a
+
+
+export PETSC_DIR=${PWD}/../../lib/petsc-3.3-p5
+export PETSC_ARCH=aa-aa
+
+
+cd ${PWD}/../../lib/
+tar -zxvf petsc-3.3-p5.tar.gz
+
+cd ${PETSC_DIR}
+
+# make allclean
+rm -r -f ./${PETSC_ARCH}
+
+
+# --COPTFLAGS='-O3 -march=native -DNDEBUG' \
+# --FOPTFLAGS='-O3 -march=native' \
+
+
+
+./configure    \
+--with-cc=mpicc \
+--with-fc=mpif90 \
+--with-blas-lib=${BLAS_LIB} \
+--with-lapack-lib=${LAPACK_LIB} \
+--with-debugging=0 \
+--COPTFLAGS='-O3 -DNDEBUG' \
+--FOPTFLAGS='-O3' \
+--with-x=0 \
+--with-cmake=make \
+--with-make=make \
+--with-make-np=4 \
+--with-pthread=0 \
+--with-shared-libraries=0 \
+--with-fortran-kernels=1 \
+--with-parmetis=1 \
+--with-parmetis-include=${PARMETIS_INC} \
+--with-parmetis-lib=${PARMETIS_LIB} \
+--with-metis=1 \
+--with-metis-include=${METIS_INC} \
+--with-metis-lib=${METIS_LIB} 
+
+
+
+make -j4 all
+
+

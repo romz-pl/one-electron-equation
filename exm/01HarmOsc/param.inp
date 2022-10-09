@@ -1,0 +1,131 @@
+#
+# Input file to RSchr. Harmonic oscylator
+# Author: Zbigniew Romanowski
+# Date: 11 December 2012
+
+#
+# General parameters
+#
+General_BsplDeg     3
+General_CubatOrder  4
+General_PotCache    Tree
+
+
+#
+# Problem domain
+#
+
+Domain_X0    -5.0
+Domain_Y0    -5.0
+Domain_Z0    -5.0
+
+Domain_Nx    40
+Domain_Ny    40
+Domain_Nz    40
+Domain_h     0.25
+
+
+#Domain_Nx    30
+#Domain_Ny    30
+#Domain_Nz    30
+#Domain_h     0.33333
+
+
+#Domain_Nx    20
+#Domain_Ny    20
+#Domain_Nz    20
+#Domain_h     0.5
+
+
+#######################################################
+#                                                     #
+#   S L E P C   EPS   P A R A M E T E R S             #
+#                                                     #
+#######################################################
+
+# Specify how many eigenvalues (and eigenvectors) to compute
+Slepc_eps_nev   10
+
+# Specify the largest dimension of the working subspace
+Slepc_eps_ncv   50
+
+# Specify the maximum projected dimension
+Slepc_eps_mpd   50
+
+# The maximum number of iterations allowed to the solution algorithm
+Slepc_eps_max_it  500
+
+# Convergence toleracne for eigenvalue solver
+Slepc_eps_tol  1E-4
+
+
+# The name of the eigenvalue method
+Slepc_eps_type   krylovschur
+
+
+
+#######################################################
+#                                                     #
+#   S L E P C   ST-KSP   P A R A M E T E R S          #
+#                                                     #
+#######################################################
+
+
+# Threshold parameter for linear solver
+Slepc_st_ksp_rtol  1E-5
+
+# Name (type) of the linear solver
+Slepc_st_ksp_type  cg
+
+
+
+#######################################################
+#                                                     #
+#   S L E P C   ST-PC   P A R A M E T E R S           #
+#                                                     #
+#######################################################
+
+# Name (type) of the preconditioner for linear solver
+# Allowed types: bjacobi, asm, gamg
+# Recommended types: asm
+Slepc_st_pc_type  asm
+
+
+#######################################################
+#                                                     #
+#   PRECONDITIONER-ASM   P A R A M E T E R S          #
+#                                                     #
+#######################################################
+
+# Allowed types: BASIC, RESTRICT, INTERPOLATE, NONE
+Slepc_asm_type RESTRICT
+
+# Recommended values: 0, 1
+Slepc_asm_overlap 0
+
+# REcommended values: 1, 2, 3
+Slpec_asm_local_subdomains 1
+
+#######################################################
+#                                                     #
+#   PRECONDITIONER-GAMG   P A R A M E T E R S         #
+#                                                     #
+#######################################################
+
+# Sets the number of levels to use
+Slepc_gamg_levels   3
+
+# Allowed types: MULTIPLICATIVE, ADDITIVE, FULL, KASKADE 
+Slepc_gamg_type MULTIPLICATIVE
+
+# Allowed types: V, W
+Slepc_gamg_cycle_type V
+
+
+# Sets the number of post-smoothing steps
+Slepc_gamg_smooth_up  1
+
+# Sets the number of pre-smoothing steps
+Slepc_gamg_smooth_down  1
+
+

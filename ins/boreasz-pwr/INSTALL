@@ -1,0 +1,19 @@
+
+1. On IBM Power 775 BOREASZ the script 'install-all' installing the  program RSchr-5.x
+   does not work. The problem is the installation of PETSc, since PETSc requires 
+   submiting the job to the qeueing system.
+   
+2. In order to instal RSchr-5.x do the following steps:
+   0) change directory to ./ins/boreasz-pwr
+   1) run ./install-lapack
+   2) run ./install-parmetis
+   3) run ./install-petsc-a (configuration)
+   4) run ./install-petsc-b (submiting a job to queuing system)
+   5) wait untill the submited job is completed
+   6) run ./install-petsc-a (reconfiguration + compilation)
+   7) run ./instal-slepc
+   8) run ./istall-rschr
+   
+   
+---END-OF-FILE---
+

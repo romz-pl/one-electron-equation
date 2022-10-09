@@ -1,0 +1,27 @@
+#!/bin/bash
+
+MAKE=/p7data/opt/gnu/make/3.82/gcc4.2.0-powerpc/bin/make
+
+cp ./lapack-3.4.1/make.inc  ../../lib/lapack-3.4.1/
+
+cd ../../lib/lapack-3.4.1
+
+${MAKE} cleanall
+
+#
+#  BLAS LIBRARY
+#
+cd BLAS/SRC
+${MAKE} -j8 double
+mv libblas.a ../../libblas.a
+#
+#
+# USE ESSL library for IBM Power 775: 
+# /usr/lib/libessl.a
+
+#
+# LAPACK LIBRARY
+#
+cd ../../SRC
+${MAKE} -j8 double
+

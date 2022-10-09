@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd ../../lib
+tar -zxvf parmetis-4.0.2.tar.gz
+cd ./parmetis-4.0.2
+cp ../../ins/linux-gcc/parmetis-4.0.2/Makefile .
+cp ../../ins/linux-gcc/parmetis-4.0.2/CMakeLists.txt .
+
+
+make distclean
+make config
+make -j4
+
+
